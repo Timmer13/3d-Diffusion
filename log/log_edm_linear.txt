@@ -1,0 +1,716 @@
+lINFO - main_diffpose_frame.py - 2023-12-04 22:44:00,300 - Writing log file to exp/human36m_diffpose_uvxyz_gt
+INFO - main_diffpose_frame.py - 2023-12-04 22:44:00,300 - Exp instance id = 70472
+INFO - diffpose_frame.py - 2023-12-04 22:44:01,188 - initialize model by:checkpoints/gcn_xyz_gt.pth
+INFO - diffpose_frame.py - 2023-12-04 22:44:38,505 - | Epoch0000: 0101/1524 | Step 000101 | Data: 595.390010 | Loss: 44.323737 |
+INFO - diffpose_frame.py - 2023-12-04 22:44:44,152 - | Epoch0000: 0201/1524 | Step 000201 | Data: 1754.392916 | Loss: 37.298812 |
+INFO - diffpose_frame.py - 2023-12-04 22:44:49,788 - | Epoch0000: 0301/1524 | Step 000301 | Data: 3477.730584 | Loss: 34.216129 |
+INFO - diffpose_frame.py - 2023-12-04 22:44:55,464 - | Epoch0000: 0401/1524 | Step 000401 | Data: 5766.517894 | Loss: 32.321575 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:01,128 - | Epoch0000: 0501/1524 | Step 000501 | Data: 8623.279344 | Loss: 31.010303 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:06,770 - | Epoch0000: 0601/1524 | Step 000601 | Data: 12044.137776 | Loss: 30.000303 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:12,416 - | Epoch0000: 0701/1524 | Step 000701 | Data: 16030.092426 | Loss: 29.207731 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:18,072 - | Epoch0000: 0801/1524 | Step 000801 | Data: 20581.183026 | Loss: 28.552440 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:23,706 - | Epoch0000: 0901/1524 | Step 000901 | Data: 25696.451095 | Loss: 28.009992 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:29,347 - | Epoch0000: 1001/1524 | Step 001001 | Data: 31375.432218 | Loss: 27.549588 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:34,989 - | Epoch0000: 1101/1524 | Step 001101 | Data: 37618.528463 | Loss: 27.141572 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:40,623 - | Epoch0000: 1201/1524 | Step 001201 | Data: 44425.424501 | Loss: 26.785153 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:46,259 - | Epoch0000: 1301/1524 | Step 001301 | Data: 51795.881144 | Loss: 26.470338 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:51,893 - | Epoch0000: 1401/1524 | Step 001401 | Data: 59729.872180 | Loss: 26.179171 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:57,624 - | Epoch0000: 1501/1524 | Step 001501 | Data: 68231.715889 | Loss: 25.915075 |
+INFO - diffpose_frame.py - 2023-12-04 22:45:59,120 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 22:46:09,274 - (101/531) Data: 2.754159s | MPJPE:  33.6189 | P-MPJPE:  24.8970
+INFO - diffpose_frame.py - 2023-12-04 22:46:16,778 - (201/531) Data: 3.788771s | MPJPE:  34.7790 | P-MPJPE:  25.8770
+INFO - diffpose_frame.py - 2023-12-04 22:46:24,198 - (301/531) Data: 4.721968s | MPJPE:  35.5725 | P-MPJPE:  26.7991
+INFO - diffpose_frame.py - 2023-12-04 22:46:31,774 - (401/531) Data: 5.833522s | MPJPE:  35.1346 | P-MPJPE:  26.4614
+INFO - diffpose_frame.py - 2023-12-04 22:46:39,291 - (501/531) Data: 6.889438s | MPJPE:  35.2960 | P-MPJPE:  26.3536
+INFO - diffpose_frame.py - 2023-12-04 22:46:41,621 - sum (531/531) Data: 7.174050s | MPJPE:  35.1743 | P-MPJPE:  26.3253
+INFO - diffpose_frame.py - 2023-12-04 22:46:41,628 - | Best Epoch: 0000 MPJPE: 34.97 | Epoch: 0000 MPJEPE: 34.97 PA-MPJPE: 26.09 |
+INFO - diffpose_frame.py - 2023-12-04 22:46:49,234 - | Epoch0001: 0101/1524 | Step 001625 | Data: 476.561841 | Loss: 22.035286 |
+INFO - diffpose_frame.py - 2023-12-04 22:46:54,896 - | Epoch0001: 0201/1524 | Step 001725 | Data: 1517.908782 | Loss: 21.923346 |
+INFO - diffpose_frame.py - 2023-12-04 22:47:00,575 - | Epoch0001: 0301/1524 | Step 001825 | Data: 3126.098427 | Loss: 21.862201 |
+INFO - diffpose_frame.py - 2023-12-04 22:47:06,204 - | Epoch0001: 0401/1524 | Step 001925 | Data: 5299.546709 | Loss: 21.748460 |
+INFO - diffpose_frame.py - 2023-12-04 22:47:11,846 - | Epoch0001: 0501/1524 | Step 002025 | Data: 8036.501296 | Loss: 21.661650 |
+INFO - diffpose_frame.py - 2023-12-04 22:47:17,511 - | Epoch0001: 0601/1524 | Step 002125 | Data: 11338.658262 | Loss: 21.589586 |
+INFO - diffpose_frame.py - 2023-12-04 22:47:23,156 - | Epoch0001: 0701/1524 | Step 002225 | Data: 15206.735308 | Loss: 21.509937 |
+INFO - diffpose_frame.py - 2023-12-04 22:47:28,789 - | Epoch0001: 0801/1524 | Step 002325 | Data: 19638.399114 | Loss: 21.440075 |
+INFO - diffpose_frame.py - 2023-12-04 22:47:34,425 - | Epoch0001: 0901/1524 | Step 002425 | Data: 24633.711081 | Loss: 21.373005 |
+INFO - diffpose_frame.py - 2023-12-04 22:47:40,055 - | Epoch0001: 1001/1524 | Step 002525 | Data: 30192.240443 | Loss: 21.304817 |
+INFO - diffpose_frame.py - 2023-12-04 22:47:45,681 - | Epoch0001: 1101/1524 | Step 002625 | Data: 36313.257711 | Loss: 21.248500 |
+INFO - diffpose_frame.py - 2023-12-04 22:47:51,309 - | Epoch0001: 1201/1524 | Step 002725 | Data: 42997.216471 | Loss: 21.184033 |
+INFO - diffpose_frame.py - 2023-12-04 22:47:56,940 - | Epoch0001: 1301/1524 | Step 002825 | Data: 50243.958604 | Loss: 21.122594 |
+INFO - diffpose_frame.py - 2023-12-04 22:48:02,564 - | Epoch0001: 1401/1524 | Step 002925 | Data: 58053.613839 | Loss: 21.062865 |
+INFO - diffpose_frame.py - 2023-12-04 22:48:08,272 - | Epoch0001: 1501/1524 | Step 003025 | Data: 66429.642273 | Loss: 21.001880 |
+INFO - diffpose_frame.py - 2023-12-04 22:48:09,775 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 22:48:19,793 - (101/531) Data: 2.675222s | MPJPE:  31.9531 | P-MPJPE:  24.2038
+INFO - diffpose_frame.py - 2023-12-04 22:48:27,318 - (201/531) Data: 3.717893s | MPJPE:  33.0381 | P-MPJPE:  25.0716
+INFO - diffpose_frame.py - 2023-12-04 22:48:34,737 - (301/531) Data: 4.655918s | MPJPE:  33.8041 | P-MPJPE:  25.9465
+INFO - diffpose_frame.py - 2023-12-04 22:48:42,342 - (401/531) Data: 5.764252s | MPJPE:  33.3530 | P-MPJPE:  25.5717
+INFO - diffpose_frame.py - 2023-12-04 22:48:49,881 - (501/531) Data: 6.831415s | MPJPE:  33.5468 | P-MPJPE:  25.4165
+INFO - diffpose_frame.py - 2023-12-04 22:48:52,202 - sum (531/531) Data: 7.115370s | MPJPE:  33.4461 | P-MPJPE:  25.3840
+INFO - diffpose_frame.py - 2023-12-04 22:48:52,208 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0001 MPJEPE: 33.22 PA-MPJPE: 25.14 |
+INFO - diffpose_frame.py - 2023-12-04 22:48:59,739 - | Epoch0002: 0101/1524 | Step 003149 | Data: 469.982471 | Loss: 20.015395 |
+INFO - diffpose_frame.py - 2023-12-04 22:49:05,421 - | Epoch0002: 0201/1524 | Step 003249 | Data: 1503.894153 | Loss: 19.974960 |
+INFO - diffpose_frame.py - 2023-12-04 22:49:11,068 - | Epoch0002: 0301/1524 | Step 003349 | Data: 3105.152925 | Loss: 19.913295 |
+INFO - diffpose_frame.py - 2023-12-04 22:49:16,714 - | Epoch0002: 0401/1524 | Step 003449 | Data: 5270.467644 | Loss: 19.861485 |
+INFO - diffpose_frame.py - 2023-12-04 22:49:22,362 - | Epoch0002: 0501/1524 | Step 003549 | Data: 8001.021845 | Loss: 19.828269 |
+INFO - diffpose_frame.py - 2023-12-04 22:49:28,004 - | Epoch0002: 0601/1524 | Step 003649 | Data: 11295.517672 | Loss: 19.786908 |
+INFO - diffpose_frame.py - 2023-12-04 22:49:33,650 - | Epoch0002: 0701/1524 | Step 003749 | Data: 15154.087047 | Loss: 19.741824 |
+INFO - diffpose_frame.py - 2023-12-04 22:49:39,285 - | Epoch0002: 0801/1524 | Step 003849 | Data: 19577.303438 | Loss: 19.700082 |
+INFO - diffpose_frame.py - 2023-12-04 22:49:44,922 - | Epoch0002: 0901/1524 | Step 003949 | Data: 24564.110532 | Loss: 19.654986 |
+INFO - diffpose_frame.py - 2023-12-04 22:49:50,561 - | Epoch0002: 1001/1524 | Step 004049 | Data: 30114.545956 | Loss: 19.610331 |
+INFO - diffpose_frame.py - 2023-12-04 22:49:56,205 - | Epoch0002: 1101/1524 | Step 004149 | Data: 36229.300525 | Loss: 19.569166 |
+INFO - diffpose_frame.py - 2023-12-04 22:50:01,850 - | Epoch0002: 1201/1524 | Step 004249 | Data: 42908.365694 | Loss: 19.524601 |
+INFO - diffpose_frame.py - 2023-12-04 22:50:07,484 - | Epoch0002: 1301/1524 | Step 004349 | Data: 50151.552899 | Loss: 19.484878 |
+INFO - diffpose_frame.py - 2023-12-04 22:50:13,124 - | Epoch0002: 1401/1524 | Step 004449 | Data: 57958.348497 | Loss: 19.444607 |
+INFO - diffpose_frame.py - 2023-12-04 22:50:18,847 - | Epoch0002: 1501/1524 | Step 004549 | Data: 66333.212216 | Loss: 19.407875 |
+INFO - diffpose_frame.py - 2023-12-04 22:50:20,349 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 22:50:30,525 - (101/531) Data: 2.846435s | MPJPE:  33.0163 | P-MPJPE:  24.7993
+INFO - diffpose_frame.py - 2023-12-04 22:50:38,014 - (201/531) Data: 3.873092s | MPJPE:  33.9753 | P-MPJPE:  25.6687
+INFO - diffpose_frame.py - 2023-12-04 22:50:45,389 - (301/531) Data: 4.793154s | MPJPE:  34.7303 | P-MPJPE:  26.5224
+INFO - diffpose_frame.py - 2023-12-04 22:50:52,945 - (401/531) Data: 5.895666s | MPJPE:  34.2109 | P-MPJPE:  26.0408
+INFO - diffpose_frame.py - 2023-12-04 22:51:00,450 - (501/531) Data: 6.952346s | MPJPE:  34.2104 | P-MPJPE:  25.8257
+INFO - diffpose_frame.py - 2023-12-04 22:51:02,774 - sum (531/531) Data: 7.237161s | MPJPE:  34.0895 | P-MPJPE:  25.7821
+INFO - diffpose_frame.py - 2023-12-04 22:51:02,782 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0002 MPJEPE: 33.90 PA-MPJPE: 25.54 |
+INFO - diffpose_frame.py - 2023-12-04 22:51:10,437 - | Epoch0003: 0101/1524 | Step 004673 | Data: 482.224670 | Loss: 18.848792 |
+INFO - diffpose_frame.py - 2023-12-04 22:51:16,088 - | Epoch0003: 0201/1524 | Step 004773 | Data: 1528.100948 | Loss: 18.802463 |
+INFO - diffpose_frame.py - 2023-12-04 22:51:21,724 - | Epoch0003: 0301/1524 | Step 004873 | Data: 3137.819844 | Loss: 18.776258 |
+INFO - diffpose_frame.py - 2023-12-04 22:51:27,350 - | Epoch0003: 0401/1524 | Step 004973 | Data: 5310.696825 | Loss: 18.739309 |
+INFO - diffpose_frame.py - 2023-12-04 22:51:32,982 - | Epoch0003: 0501/1524 | Step 005073 | Data: 8046.391095 | Loss: 18.714606 |
+INFO - diffpose_frame.py - 2023-12-04 22:51:38,607 - | Epoch0003: 0601/1524 | Step 005173 | Data: 11344.785702 | Loss: 18.682401 |
+INFO - diffpose_frame.py - 2023-12-04 22:51:44,242 - | Epoch0003: 0701/1524 | Step 005273 | Data: 15206.273824 | Loss: 18.660868 |
+INFO - diffpose_frame.py - 2023-12-04 22:51:49,881 - | Epoch0003: 0801/1524 | Step 005373 | Data: 19631.567106 | Loss: 18.630797 |
+INFO - diffpose_frame.py - 2023-12-04 22:51:55,517 - | Epoch0003: 0901/1524 | Step 005473 | Data: 24620.473393 | Loss: 18.608848 |
+INFO - diffpose_frame.py - 2023-12-04 22:52:01,149 - | Epoch0003: 1001/1524 | Step 005573 | Data: 30173.004834 | Loss: 18.588903 |
+INFO - diffpose_frame.py - 2023-12-04 22:52:06,791 - | Epoch0003: 1101/1524 | Step 005673 | Data: 36289.140275 | Loss: 18.558860 |
+INFO - diffpose_frame.py - 2023-12-04 22:52:12,427 - | Epoch0003: 1201/1524 | Step 005773 | Data: 42968.984973 | Loss: 18.538667 |
+INFO - diffpose_frame.py - 2023-12-04 22:52:18,059 - | Epoch0003: 1301/1524 | Step 005873 | Data: 50212.341477 | Loss: 18.513173 |
+INFO - diffpose_frame.py - 2023-12-04 22:52:23,693 - | Epoch0003: 1401/1524 | Step 005973 | Data: 58018.799223 | Loss: 18.488663 |
+INFO - diffpose_frame.py - 2023-12-04 22:52:29,415 - | Epoch0003: 1501/1524 | Step 006073 | Data: 66392.927256 | Loss: 18.471447 |
+INFO - diffpose_frame.py - 2023-12-04 22:52:30,928 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 22:52:40,982 - (101/531) Data: 2.674250s | MPJPE:  35.3930 | P-MPJPE:  25.8182
+INFO - diffpose_frame.py - 2023-12-04 22:52:48,513 - (201/531) Data: 3.731320s | MPJPE:  36.4576 | P-MPJPE:  26.6594
+INFO - diffpose_frame.py - 2023-12-04 22:52:55,897 - (301/531) Data: 4.656276s | MPJPE:  37.1396 | P-MPJPE:  27.4384
+INFO - diffpose_frame.py - 2023-12-04 22:53:03,462 - (401/531) Data: 5.764771s | MPJPE:  36.3121 | P-MPJPE:  26.9401
+INFO - diffpose_frame.py - 2023-12-04 22:53:10,976 - (501/531) Data: 6.823743s | MPJPE:  36.1786 | P-MPJPE:  26.6680
+INFO - diffpose_frame.py - 2023-12-04 22:53:13,304 - sum (531/531) Data: 7.108648s | MPJPE:  36.0195 | P-MPJPE:  26.6173
+INFO - diffpose_frame.py - 2023-12-04 22:53:13,311 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0003 MPJEPE: 35.83 PA-MPJPE: 26.39 |
+INFO - diffpose_frame.py - 2023-12-04 22:53:20,956 - | Epoch0004: 0101/1524 | Step 006197 | Data: 479.818689 | Loss: 18.111497 |
+INFO - diffpose_frame.py - 2023-12-04 22:53:26,597 - | Epoch0004: 0201/1524 | Step 006297 | Data: 1523.734766 | Loss: 18.111216 |
+INFO - diffpose_frame.py - 2023-12-04 22:53:32,228 - | Epoch0004: 0301/1524 | Step 006397 | Data: 3131.068704 | Loss: 18.084679 |
+INFO - diffpose_frame.py - 2023-12-04 22:53:37,873 - | Epoch0004: 0401/1524 | Step 006497 | Data: 5302.125446 | Loss: 18.051229 |
+INFO - diffpose_frame.py - 2023-12-04 22:53:43,512 - | Epoch0004: 0501/1524 | Step 006597 | Data: 8037.677265 | Loss: 18.045415 |
+INFO - diffpose_frame.py - 2023-12-04 22:53:49,154 - | Epoch0004: 0601/1524 | Step 006697 | Data: 11336.866846 | Loss: 18.036595 |
+INFO - diffpose_frame.py - 2023-12-04 22:53:54,791 - | Epoch0004: 0701/1524 | Step 006797 | Data: 15200.521003 | Loss: 18.015167 |
+INFO - diffpose_frame.py - 2023-12-04 22:54:00,434 - | Epoch0004: 0801/1524 | Step 006897 | Data: 19627.633889 | Loss: 17.997747 |
+INFO - diffpose_frame.py - 2023-12-04 22:54:06,064 - | Epoch0004: 0901/1524 | Step 006997 | Data: 24618.485454 | Loss: 17.979349 |
+INFO - diffpose_frame.py - 2023-12-04 22:54:11,691 - | Epoch0004: 1001/1524 | Step 007097 | Data: 30172.238739 | Loss: 17.960902 |
+INFO - diffpose_frame.py - 2023-12-04 22:54:17,327 - | Epoch0004: 1101/1524 | Step 007197 | Data: 36289.269424 | Loss: 17.942183 |
+INFO - diffpose_frame.py - 2023-12-04 22:54:22,966 - | Epoch0004: 1201/1524 | Step 007297 | Data: 42970.168507 | Loss: 17.925621 |
+INFO - diffpose_frame.py - 2023-12-04 22:54:28,609 - | Epoch0004: 1301/1524 | Step 007397 | Data: 50215.040762 | Loss: 17.910361 |
+INFO - diffpose_frame.py - 2023-12-04 22:54:34,260 - | Epoch0004: 1401/1524 | Step 007497 | Data: 58024.920985 | Loss: 17.897130 |
+INFO - diffpose_frame.py - 2023-12-04 22:54:39,976 - | Epoch0004: 1501/1524 | Step 007597 | Data: 66403.059536 | Loss: 17.880373 |
+INFO - diffpose_frame.py - 2023-12-04 22:54:41,485 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 22:54:51,741 - (101/531) Data: 2.908476s | MPJPE:  34.7760 | P-MPJPE:  25.5917
+INFO - diffpose_frame.py - 2023-12-04 22:54:59,267 - (201/531) Data: 3.956545s | MPJPE:  35.8831 | P-MPJPE:  26.4569
+INFO - diffpose_frame.py - 2023-12-04 22:55:06,661 - (301/531) Data: 4.887917s | MPJPE:  36.5464 | P-MPJPE:  27.2145
+INFO - diffpose_frame.py - 2023-12-04 22:55:14,219 - (401/531) Data: 5.987459s | MPJPE:  35.9609 | P-MPJPE:  26.8278
+INFO - diffpose_frame.py - 2023-12-04 22:55:21,721 - (501/531) Data: 7.040844s | MPJPE:  35.8462 | P-MPJPE:  26.5747
+INFO - diffpose_frame.py - 2023-12-04 22:55:24,054 - sum (531/531) Data: 7.324462s | MPJPE:  35.6955 | P-MPJPE:  26.5272
+INFO - diffpose_frame.py - 2023-12-04 22:55:24,061 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0004 MPJEPE: 35.52 PA-MPJPE: 26.33 |
+INFO - diffpose_frame.py - 2023-12-04 22:55:31,795 - | Epoch0005: 0101/1524 | Step 007721 | Data: 488.611709 | Loss: 17.648461 |
+INFO - diffpose_frame.py - 2023-12-04 22:55:37,434 - | Epoch0005: 0201/1524 | Step 007821 | Data: 1540.871224 | Loss: 17.619279 |
+INFO - diffpose_frame.py - 2023-12-04 22:55:43,073 - | Epoch0005: 0301/1524 | Step 007921 | Data: 3157.312960 | Loss: 17.599146 |
+INFO - diffpose_frame.py - 2023-12-04 22:55:48,693 - | Epoch0005: 0401/1524 | Step 008021 | Data: 5336.752374 | Loss: 17.577113 |
+INFO - diffpose_frame.py - 2023-12-04 22:55:54,324 - | Epoch0005: 0501/1524 | Step 008121 | Data: 8078.681737 | Loss: 17.556167 |
+INFO - diffpose_frame.py - 2023-12-04 22:55:59,955 - | Epoch0005: 0601/1524 | Step 008221 | Data: 11384.000206 | Loss: 17.540573 |
+INFO - diffpose_frame.py - 2023-12-04 22:56:05,596 - | Epoch0005: 0701/1524 | Step 008321 | Data: 15252.520289 | Loss: 17.532583 |
+INFO - diffpose_frame.py - 2023-12-04 22:56:11,231 - | Epoch0005: 0801/1524 | Step 008421 | Data: 19685.203530 | Loss: 17.517569 |
+INFO - diffpose_frame.py - 2023-12-04 22:56:16,859 - | Epoch0005: 0901/1524 | Step 008521 | Data: 24680.734655 | Loss: 17.499517 |
+INFO - diffpose_frame.py - 2023-12-04 22:56:22,501 - | Epoch0005: 1001/1524 | Step 008621 | Data: 30239.735814 | Loss: 17.482582 |
+INFO - diffpose_frame.py - 2023-12-04 22:56:28,141 - | Epoch0005: 1101/1524 | Step 008721 | Data: 36362.944711 | Loss: 17.471403 |
+INFO - diffpose_frame.py - 2023-12-04 22:56:33,783 - | Epoch0005: 1201/1524 | Step 008821 | Data: 43050.532257 | Loss: 17.458319 |
+INFO - diffpose_frame.py - 2023-12-04 22:56:39,411 - | Epoch0005: 1301/1524 | Step 008921 | Data: 50301.357887 | Loss: 17.445698 |
+INFO - diffpose_frame.py - 2023-12-04 22:56:45,037 - | Epoch0005: 1401/1524 | Step 009021 | Data: 58114.873510 | Loss: 17.433152 |
+INFO - diffpose_frame.py - 2023-12-04 22:56:50,755 - | Epoch0005: 1501/1524 | Step 009121 | Data: 66495.333842 | Loss: 17.423975 |
+INFO - diffpose_frame.py - 2023-12-04 22:56:52,277 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 22:57:02,605 - (101/531) Data: 2.848499s | MPJPE:  35.5307 | P-MPJPE:  25.3719
+INFO - diffpose_frame.py - 2023-12-04 22:57:10,084 - (201/531) Data: 3.880010s | MPJPE:  36.5150 | P-MPJPE:  26.1613
+INFO - diffpose_frame.py - 2023-12-04 22:57:17,453 - (301/531) Data: 4.802780s | MPJPE:  37.1530 | P-MPJPE:  26.8937
+INFO - diffpose_frame.py - 2023-12-04 22:57:24,989 - (401/531) Data: 5.898189s | MPJPE:  36.2001 | P-MPJPE:  26.4245
+INFO - diffpose_frame.py - 2023-12-04 22:57:32,481 - (501/531) Data: 6.950170s | MPJPE:  36.0074 | P-MPJPE:  26.1875
+INFO - diffpose_frame.py - 2023-12-04 22:57:34,806 - sum (531/531) Data: 7.233111s | MPJPE:  35.8173 | P-MPJPE:  26.1252
+INFO - diffpose_frame.py - 2023-12-04 22:57:34,813 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0005 MPJEPE: 35.64 PA-MPJPE: 25.90 |
+INFO - diffpose_frame.py - 2023-12-04 22:57:42,528 - | Epoch0006: 0101/1524 | Step 009245 | Data: 487.990720 | Loss: 17.164790 |
+INFO - diffpose_frame.py - 2023-12-04 22:57:48,162 - | Epoch0006: 0201/1524 | Step 009345 | Data: 1538.524297 | Loss: 17.207921 |
+INFO - diffpose_frame.py - 2023-12-04 22:57:53,795 - | Epoch0006: 0301/1524 | Step 009445 | Data: 3152.247397 | Loss: 17.207129 |
+INFO - diffpose_frame.py - 2023-12-04 22:57:59,438 - | Epoch0006: 0401/1524 | Step 009545 | Data: 5329.988575 | Loss: 17.188349 |
+INFO - diffpose_frame.py - 2023-12-04 22:58:05,105 - | Epoch0006: 0501/1524 | Step 009645 | Data: 8073.044039 | Loss: 17.189043 |
+INFO - diffpose_frame.py - 2023-12-04 22:58:10,742 - | Epoch0006: 0601/1524 | Step 009745 | Data: 11381.492595 | Loss: 17.176259 |
+INFO - diffpose_frame.py - 2023-12-04 22:58:16,379 - | Epoch0006: 0701/1524 | Step 009845 | Data: 15253.279191 | Loss: 17.172726 |
+INFO - diffpose_frame.py - 2023-12-04 22:58:22,005 - | Epoch0006: 0801/1524 | Step 009945 | Data: 19688.406190 | Loss: 17.161257 |
+INFO - diffpose_frame.py - 2023-12-04 22:58:27,636 - | Epoch0006: 0901/1524 | Step 010045 | Data: 24685.921679 | Loss: 17.151994 |
+INFO - diffpose_frame.py - 2023-12-04 22:58:33,271 - | Epoch0006: 1001/1524 | Step 010145 | Data: 30247.023770 | Loss: 17.144715 |
+INFO - diffpose_frame.py - 2023-12-04 22:58:38,905 - | Epoch0006: 1101/1524 | Step 010245 | Data: 36372.101558 | Loss: 17.131309 |
+INFO - diffpose_frame.py - 2023-12-04 22:58:44,536 - | Epoch0006: 1201/1524 | Step 010345 | Data: 43060.058513 | Loss: 17.118385 |
+INFO - diffpose_frame.py - 2023-12-04 22:58:50,160 - | Epoch0006: 1301/1524 | Step 010445 | Data: 50310.794255 | Loss: 17.107526 |
+INFO - diffpose_frame.py - 2023-12-04 22:58:55,781 - | Epoch0006: 1401/1524 | Step 010545 | Data: 58123.780831 | Loss: 17.097864 |
+INFO - diffpose_frame.py - 2023-12-04 22:59:01,500 - | Epoch0006: 1501/1524 | Step 010645 | Data: 66503.394641 | Loss: 17.091255 |
+INFO - diffpose_frame.py - 2023-12-04 22:59:03,004 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 22:59:13,055 - (101/531) Data: 2.694919s | MPJPE:  33.4373 | P-MPJPE:  25.1935
+INFO - diffpose_frame.py - 2023-12-04 22:59:20,563 - (201/531) Data: 3.749939s | MPJPE:  34.5009 | P-MPJPE:  25.9964
+INFO - diffpose_frame.py - 2023-12-04 22:59:27,965 - (301/531) Data: 4.700815s | MPJPE:  35.3068 | P-MPJPE:  26.7803
+INFO - diffpose_frame.py - 2023-12-04 22:59:35,527 - (401/531) Data: 5.808542s | MPJPE:  34.7968 | P-MPJPE:  26.3534
+INFO - diffpose_frame.py - 2023-12-04 22:59:43,032 - (501/531) Data: 6.871688s | MPJPE:  34.8346 | P-MPJPE:  26.1176
+INFO - diffpose_frame.py - 2023-12-04 22:59:45,344 - sum (531/531) Data: 7.155907s | MPJPE:  34.6906 | P-MPJPE:  26.0663
+INFO - diffpose_frame.py - 2023-12-04 22:59:45,357 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0006 MPJEPE: 34.46 PA-MPJPE: 25.85 |
+INFO - diffpose_frame.py - 2023-12-04 22:59:53,018 - | Epoch0007: 0101/1524 | Step 010769 | Data: 482.626546 | Loss: 16.918806 |
+INFO - diffpose_frame.py - 2023-12-04 22:59:58,673 - | Epoch0007: 0201/1524 | Step 010869 | Data: 1528.844866 | Loss: 16.910410 |
+INFO - diffpose_frame.py - 2023-12-04 23:00:04,336 - | Epoch0007: 0301/1524 | Step 010969 | Data: 3140.684801 | Loss: 16.905006 |
+INFO - diffpose_frame.py - 2023-12-04 23:00:10,013 - | Epoch0007: 0401/1524 | Step 011069 | Data: 5319.136306 | Loss: 16.898998 |
+INFO - diffpose_frame.py - 2023-12-04 23:00:15,654 - | Epoch0007: 0501/1524 | Step 011169 | Data: 8064.183799 | Loss: 16.899387 |
+INFO - diffpose_frame.py - 2023-12-04 23:00:21,308 - | Epoch0007: 0601/1524 | Step 011269 | Data: 11373.290420 | Loss: 16.899109 |
+INFO - diffpose_frame.py - 2023-12-04 23:00:26,944 - | Epoch0007: 0701/1524 | Step 011369 | Data: 15247.537657 | Loss: 16.885149 |
+INFO - diffpose_frame.py - 2023-12-04 23:00:32,594 - | Epoch0007: 0801/1524 | Step 011469 | Data: 19686.047564 | Loss: 16.877609 |
+INFO - diffpose_frame.py - 2023-12-04 23:00:38,256 - | Epoch0007: 0901/1524 | Step 011569 | Data: 24689.918993 | Loss: 16.869121 |
+INFO - diffpose_frame.py - 2023-12-04 23:00:43,916 - | Epoch0007: 1001/1524 | Step 011669 | Data: 30259.924729 | Loss: 16.859229 |
+INFO - diffpose_frame.py - 2023-12-04 23:00:49,556 - | Epoch0007: 1101/1524 | Step 011769 | Data: 36395.541100 | Loss: 16.852938 |
+INFO - diffpose_frame.py - 2023-12-04 23:00:55,195 - | Epoch0007: 1201/1524 | Step 011869 | Data: 43094.694808 | Loss: 16.846311 |
+INFO - diffpose_frame.py - 2023-12-04 23:01:00,830 - | Epoch0007: 1301/1524 | Step 011969 | Data: 50357.472501 | Loss: 16.839837 |
+INFO - diffpose_frame.py - 2023-12-04 23:01:06,462 - | Epoch0007: 1401/1524 | Step 012069 | Data: 58183.582090 | Loss: 16.827515 |
+INFO - diffpose_frame.py - 2023-12-04 23:01:12,187 - | Epoch0007: 1501/1524 | Step 012169 | Data: 66577.487802 | Loss: 16.823226 |
+INFO - diffpose_frame.py - 2023-12-04 23:01:13,701 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:01:23,877 - (101/531) Data: 2.810812s | MPJPE:  33.3334 | P-MPJPE:  25.0473
+INFO - diffpose_frame.py - 2023-12-04 23:01:31,368 - (201/531) Data: 3.852377s | MPJPE:  34.4242 | P-MPJPE:  25.8159
+INFO - diffpose_frame.py - 2023-12-04 23:01:38,759 - (301/531) Data: 4.785981s | MPJPE:  35.2790 | P-MPJPE:  26.5969
+INFO - diffpose_frame.py - 2023-12-04 23:01:46,311 - (401/531) Data: 5.888393s | MPJPE:  34.6827 | P-MPJPE:  26.1989
+INFO - diffpose_frame.py - 2023-12-04 23:01:53,804 - (501/531) Data: 6.944025s | MPJPE:  34.6548 | P-MPJPE:  25.9292
+INFO - diffpose_frame.py - 2023-12-04 23:01:56,134 - sum (531/531) Data: 7.228465s | MPJPE:  34.4925 | P-MPJPE:  25.8729
+INFO - diffpose_frame.py - 2023-12-04 23:01:56,140 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0007 MPJEPE: 34.19 PA-MPJPE: 25.64 |
+INFO - diffpose_frame.py - 2023-12-04 23:02:03,768 - | Epoch0008: 0101/1524 | Step 012293 | Data: 479.105571 | Loss: 16.722486 |
+INFO - diffpose_frame.py - 2023-12-04 23:02:09,409 - | Epoch0008: 0201/1524 | Step 012393 | Data: 1521.135203 | Loss: 16.682152 |
+INFO - diffpose_frame.py - 2023-12-04 23:02:15,054 - | Epoch0008: 0301/1524 | Step 012493 | Data: 3127.176302 | Loss: 16.699147 |
+INFO - diffpose_frame.py - 2023-12-04 23:02:20,714 - | Epoch0008: 0401/1524 | Step 012593 | Data: 5299.443738 | Loss: 16.679354 |
+INFO - diffpose_frame.py - 2023-12-04 23:02:26,358 - | Epoch0008: 0501/1524 | Step 012693 | Data: 8036.023290 | Loss: 16.661222 |
+INFO - diffpose_frame.py - 2023-12-04 23:02:31,997 - | Epoch0008: 0601/1524 | Step 012793 | Data: 11337.018167 | Loss: 16.651284 |
+INFO - diffpose_frame.py - 2023-12-04 23:02:37,642 - | Epoch0008: 0701/1524 | Step 012893 | Data: 15202.035775 | Loss: 16.647680 |
+INFO - diffpose_frame.py - 2023-12-04 23:02:43,282 - | Epoch0008: 0801/1524 | Step 012993 | Data: 19631.265302 | Loss: 16.640282 |
+INFO - diffpose_frame.py - 2023-12-04 23:02:48,932 - | Epoch0008: 0901/1524 | Step 013093 | Data: 24625.167592 | Loss: 16.633815 |
+INFO - diffpose_frame.py - 2023-12-04 23:02:54,575 - | Epoch0008: 1001/1524 | Step 013193 | Data: 30183.431935 | Loss: 16.622196 |
+INFO - diffpose_frame.py - 2023-12-04 23:03:00,223 - | Epoch0008: 1101/1524 | Step 013293 | Data: 36306.332263 | Loss: 16.616510 |
+INFO - diffpose_frame.py - 2023-12-04 23:03:05,856 - | Epoch0008: 1201/1524 | Step 013393 | Data: 42993.373495 | Loss: 16.613422 |
+INFO - diffpose_frame.py - 2023-12-04 23:03:11,496 - | Epoch0008: 1301/1524 | Step 013493 | Data: 50244.140412 | Loss: 16.611031 |
+INFO - diffpose_frame.py - 2023-12-04 23:03:17,144 - | Epoch0008: 1401/1524 | Step 013593 | Data: 58059.288773 | Loss: 16.603988 |
+INFO - diffpose_frame.py - 2023-12-04 23:03:22,858 - | Epoch0008: 1501/1524 | Step 013693 | Data: 66442.546667 | Loss: 16.597273 |
+INFO - diffpose_frame.py - 2023-12-04 23:03:24,385 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:03:34,558 - (101/531) Data: 2.744610s | MPJPE:  33.9517 | P-MPJPE:  25.6826
+INFO - diffpose_frame.py - 2023-12-04 23:03:42,066 - (201/531) Data: 3.779941s | MPJPE:  34.8562 | P-MPJPE:  26.4677
+INFO - diffpose_frame.py - 2023-12-04 23:03:49,452 - (301/531) Data: 4.704926s | MPJPE:  35.6169 | P-MPJPE:  27.2684
+INFO - diffpose_frame.py - 2023-12-04 23:03:57,007 - (401/531) Data: 5.804897s | MPJPE:  35.1024 | P-MPJPE:  26.7867
+INFO - diffpose_frame.py - 2023-12-04 23:04:04,505 - (501/531) Data: 6.858211s | MPJPE:  35.1073 | P-MPJPE:  26.5636
+INFO - diffpose_frame.py - 2023-12-04 23:04:06,821 - sum (531/531) Data: 7.141956s | MPJPE:  34.9611 | P-MPJPE:  26.5045
+INFO - diffpose_frame.py - 2023-12-04 23:04:06,828 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0008 MPJEPE: 34.74 PA-MPJPE: 26.25 |
+INFO - diffpose_frame.py - 2023-12-04 23:04:14,622 - | Epoch0009: 0101/1524 | Step 013817 | Data: 495.136438 | Loss: 16.507014 |
+INFO - diffpose_frame.py - 2023-12-04 23:04:20,275 - | Epoch0009: 0201/1524 | Step 013917 | Data: 1554.185565 | Loss: 16.497427 |
+INFO - diffpose_frame.py - 2023-12-04 23:04:25,955 - | Epoch0009: 0301/1524 | Step 014017 | Data: 3179.407876 | Loss: 16.482981 |
+INFO - diffpose_frame.py - 2023-12-04 23:04:31,591 - | Epoch0009: 0401/1524 | Step 014117 | Data: 5370.955340 | Loss: 16.467735 |
+INFO - diffpose_frame.py - 2023-12-04 23:04:37,228 - | Epoch0009: 0501/1524 | Step 014217 | Data: 8126.719455 | Loss: 16.454324 |
+INFO - diffpose_frame.py - 2023-12-04 23:04:42,859 - | Epoch0009: 0601/1524 | Step 014317 | Data: 11445.583520 | Loss: 16.451912 |
+INFO - diffpose_frame.py - 2023-12-04 23:04:48,485 - | Epoch0009: 0701/1524 | Step 014417 | Data: 15327.275688 | Loss: 16.444815 |
+INFO - diffpose_frame.py - 2023-12-04 23:04:54,122 - | Epoch0009: 0801/1524 | Step 014517 | Data: 19771.898544 | Loss: 16.438063 |
+INFO - diffpose_frame.py - 2023-12-04 23:04:59,755 - | Epoch0009: 0901/1524 | Step 014617 | Data: 24780.291846 | Loss: 16.434502 |
+INFO - diffpose_frame.py - 2023-12-04 23:05:05,374 - | Epoch0009: 1001/1524 | Step 014717 | Data: 30351.188267 | Loss: 16.430895 |
+INFO - diffpose_frame.py - 2023-12-04 23:05:10,994 - | Epoch0009: 1101/1524 | Step 014817 | Data: 36484.133420 | Loss: 16.423826 |
+INFO - diffpose_frame.py - 2023-12-04 23:05:16,621 - | Epoch0009: 1201/1524 | Step 014917 | Data: 43179.273760 | Loss: 16.420858 |
+INFO - diffpose_frame.py - 2023-12-04 23:05:22,244 - | Epoch0009: 1301/1524 | Step 015017 | Data: 50437.005746 | Loss: 16.417868 |
+INFO - diffpose_frame.py - 2023-12-04 23:05:27,869 - | Epoch0009: 1401/1524 | Step 015117 | Data: 58257.284894 | Loss: 16.412123 |
+INFO - diffpose_frame.py - 2023-12-04 23:05:33,585 - | Epoch0009: 1501/1524 | Step 015217 | Data: 66644.076106 | Loss: 16.408381 |
+INFO - diffpose_frame.py - 2023-12-04 23:05:35,082 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:05:45,066 - (101/531) Data: 2.678141s | MPJPE:  33.4797 | P-MPJPE:  25.0957
+INFO - diffpose_frame.py - 2023-12-04 23:05:52,552 - (201/531) Data: 3.709942s | MPJPE:  34.5863 | P-MPJPE:  25.9066
+INFO - diffpose_frame.py - 2023-12-04 23:05:59,933 - (301/531) Data: 4.641667s | MPJPE:  35.3206 | P-MPJPE:  26.6796
+INFO - diffpose_frame.py - 2023-12-04 23:06:07,480 - (401/531) Data: 5.742385s | MPJPE:  34.6267 | P-MPJPE:  26.1592
+INFO - diffpose_frame.py - 2023-12-04 23:06:14,986 - (501/531) Data: 6.804165s | MPJPE:  34.5540 | P-MPJPE:  25.9058
+INFO - diffpose_frame.py - 2023-12-04 23:06:17,310 - sum (531/531) Data: 7.089249s | MPJPE:  34.3933 | P-MPJPE:  25.8393
+INFO - diffpose_frame.py - 2023-12-04 23:06:17,317 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0009 MPJEPE: 34.13 PA-MPJPE: 25.58 |
+INFO - diffpose_frame.py - 2023-12-04 23:06:24,975 - | Epoch0010: 0101/1524 | Step 015341 | Data: 481.096654 | Loss: 16.392828 |
+INFO - diffpose_frame.py - 2023-12-04 23:06:30,676 - | Epoch0010: 0201/1524 | Step 015441 | Data: 1528.859283 | Loss: 16.350735 |
+INFO - diffpose_frame.py - 2023-12-04 23:06:36,333 - | Epoch0010: 0301/1524 | Step 015541 | Data: 3144.975956 | Loss: 16.335622 |
+INFO - diffpose_frame.py - 2023-12-04 23:06:41,979 - | Epoch0010: 0401/1524 | Step 015641 | Data: 5326.607699 | Loss: 16.309178 |
+INFO - diffpose_frame.py - 2023-12-04 23:06:47,611 - | Epoch0010: 0501/1524 | Step 015741 | Data: 8071.748132 | Loss: 16.291609 |
+INFO - diffpose_frame.py - 2023-12-04 23:06:53,242 - | Epoch0010: 0601/1524 | Step 015841 | Data: 11379.980404 | Loss: 16.295367 |
+INFO - diffpose_frame.py - 2023-12-04 23:06:58,893 - | Epoch0010: 0701/1524 | Step 015941 | Data: 15252.389977 | Loss: 16.292172 |
+INFO - diffpose_frame.py - 2023-12-04 23:07:04,531 - | Epoch0010: 0801/1524 | Step 016041 | Data: 19689.241804 | Loss: 16.284628 |
+INFO - diffpose_frame.py - 2023-12-04 23:07:10,169 - | Epoch0010: 0901/1524 | Step 016141 | Data: 24690.160893 | Loss: 16.277981 |
+INFO - diffpose_frame.py - 2023-12-04 23:07:15,806 - | Epoch0010: 1001/1524 | Step 016241 | Data: 30254.289462 | Loss: 16.273558 |
+INFO - diffpose_frame.py - 2023-12-04 23:07:21,451 - | Epoch0010: 1101/1524 | Step 016341 | Data: 36382.718963 | Loss: 16.268159 |
+INFO - diffpose_frame.py - 2023-12-04 23:07:27,103 - | Epoch0010: 1201/1524 | Step 016441 | Data: 43075.712880 | Loss: 16.262465 |
+INFO - diffpose_frame.py - 2023-12-04 23:07:32,751 - | Epoch0010: 1301/1524 | Step 016541 | Data: 50334.291165 | Loss: 16.256574 |
+INFO - diffpose_frame.py - 2023-12-04 23:07:38,393 - | Epoch0010: 1401/1524 | Step 016641 | Data: 58156.998763 | Loss: 16.251699 |
+INFO - diffpose_frame.py - 2023-12-04 23:07:44,120 - | Epoch0010: 1501/1524 | Step 016741 | Data: 66548.226656 | Loss: 16.244849 |
+INFO - diffpose_frame.py - 2023-12-04 23:07:45,634 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:07:55,815 - (101/531) Data: 2.822467s | MPJPE:  34.3000 | P-MPJPE:  24.5546
+INFO - diffpose_frame.py - 2023-12-04 23:08:03,315 - (201/531) Data: 3.855098s | MPJPE:  35.2672 | P-MPJPE:  25.3688
+INFO - diffpose_frame.py - 2023-12-04 23:08:10,692 - (301/531) Data: 4.782263s | MPJPE:  35.9645 | P-MPJPE:  26.1532
+INFO - diffpose_frame.py - 2023-12-04 23:08:18,244 - (401/531) Data: 5.883202s | MPJPE:  35.1122 | P-MPJPE:  25.7313
+INFO - diffpose_frame.py - 2023-12-04 23:08:25,754 - (501/531) Data: 6.945426s | MPJPE:  34.9949 | P-MPJPE:  25.5440
+INFO - diffpose_frame.py - 2023-12-04 23:08:28,110 - sum (531/531) Data: 7.229813s | MPJPE:  34.8107 | P-MPJPE:  25.5019
+INFO - diffpose_frame.py - 2023-12-04 23:08:28,116 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0010 MPJEPE: 34.61 PA-MPJPE: 25.26 |
+INFO - diffpose_frame.py - 2023-12-04 23:08:35,767 - | Epoch0011: 0101/1524 | Step 016865 | Data: 480.758547 | Loss: 16.169795 |
+INFO - diffpose_frame.py - 2023-12-04 23:08:41,443 - | Epoch0011: 0201/1524 | Step 016965 | Data: 1527.614747 | Loss: 16.161900 |
+INFO - diffpose_frame.py - 2023-12-04 23:08:47,078 - | Epoch0011: 0301/1524 | Step 017065 | Data: 3139.304689 | Loss: 16.150440 |
+INFO - diffpose_frame.py - 2023-12-04 23:08:52,710 - | Epoch0011: 0401/1524 | Step 017165 | Data: 5314.151093 | Loss: 16.148953 |
+INFO - diffpose_frame.py - 2023-12-04 23:08:58,341 - | Epoch0011: 0501/1524 | Step 017265 | Data: 8052.314792 | Loss: 16.144941 |
+INFO - diffpose_frame.py - 2023-12-04 23:09:03,969 - | Epoch0011: 0601/1524 | Step 017365 | Data: 11353.311336 | Loss: 16.149259 |
+INFO - diffpose_frame.py - 2023-12-04 23:09:09,610 - | Epoch0011: 0701/1524 | Step 017465 | Data: 15217.918521 | Loss: 16.146469 |
+INFO - diffpose_frame.py - 2023-12-04 23:09:15,245 - | Epoch0011: 0801/1524 | Step 017565 | Data: 19646.335071 | Loss: 16.141408 |
+INFO - diffpose_frame.py - 2023-12-04 23:09:20,877 - | Epoch0011: 0901/1524 | Step 017665 | Data: 24638.249715 | Loss: 16.131683 |
+INFO - diffpose_frame.py - 2023-12-04 23:09:26,504 - | Epoch0011: 1001/1524 | Step 017765 | Data: 30192.977188 | Loss: 16.130976 |
+INFO - diffpose_frame.py - 2023-12-04 23:09:32,135 - | Epoch0011: 1101/1524 | Step 017865 | Data: 36310.621628 | Loss: 16.126847 |
+INFO - diffpose_frame.py - 2023-12-04 23:09:37,778 - | Epoch0011: 1201/1524 | Step 017965 | Data: 42991.562813 | Loss: 16.122151 |
+INFO - diffpose_frame.py - 2023-12-04 23:09:43,404 - | Epoch0011: 1301/1524 | Step 018065 | Data: 50236.124759 | Loss: 16.117093 |
+INFO - diffpose_frame.py - 2023-12-04 23:09:49,042 - | Epoch0011: 1401/1524 | Step 018165 | Data: 58044.102738 | Loss: 16.112643 |
+INFO - diffpose_frame.py - 2023-12-04 23:09:54,764 - | Epoch0011: 1501/1524 | Step 018265 | Data: 66419.894887 | Loss: 16.109082 |
+INFO - diffpose_frame.py - 2023-12-04 23:09:56,275 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:10:06,476 - (101/531) Data: 2.835047s | MPJPE:  33.0770 | P-MPJPE:  24.8058
+INFO - diffpose_frame.py - 2023-12-04 23:10:13,960 - (201/531) Data: 3.872585s | MPJPE:  34.0589 | P-MPJPE:  25.5761
+INFO - diffpose_frame.py - 2023-12-04 23:10:21,331 - (301/531) Data: 4.803165s | MPJPE:  34.8109 | P-MPJPE:  26.3581
+INFO - diffpose_frame.py - 2023-12-04 23:10:28,881 - (401/531) Data: 5.903283s | MPJPE:  34.0846 | P-MPJPE:  25.8604
+INFO - diffpose_frame.py - 2023-12-04 23:10:36,372 - (501/531) Data: 6.958791s | MPJPE:  34.0752 | P-MPJPE:  25.6609
+INFO - diffpose_frame.py - 2023-12-04 23:10:38,708 - sum (531/531) Data: 7.242871s | MPJPE:  33.9038 | P-MPJPE:  25.6072
+INFO - diffpose_frame.py - 2023-12-04 23:10:38,716 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0011 MPJEPE: 33.63 PA-MPJPE: 25.34 |
+INFO - diffpose_frame.py - 2023-12-04 23:10:46,315 - | Epoch0012: 0101/1524 | Step 018389 | Data: 474.669427 | Loss: 16.002726 |
+INFO - diffpose_frame.py - 2023-12-04 23:10:51,963 - | Epoch0012: 0201/1524 | Step 018489 | Data: 1514.317314 | Loss: 16.023075 |
+INFO - diffpose_frame.py - 2023-12-04 23:10:57,590 - | Epoch0012: 0301/1524 | Step 018589 | Data: 3117.501563 | Loss: 16.016106 |
+INFO - diffpose_frame.py - 2023-12-04 23:11:03,225 - | Epoch0012: 0401/1524 | Step 018689 | Data: 5283.692976 | Loss: 16.025639 |
+INFO - diffpose_frame.py - 2023-12-04 23:11:08,851 - | Epoch0012: 0501/1524 | Step 018789 | Data: 8012.970728 | Loss: 16.015284 |
+INFO - diffpose_frame.py - 2023-12-04 23:11:14,488 - | Epoch0012: 0601/1524 | Step 018889 | Data: 11305.627156 | Loss: 16.013842 |
+INFO - diffpose_frame.py - 2023-12-04 23:11:20,136 - | Epoch0012: 0701/1524 | Step 018989 | Data: 15162.308764 | Loss: 16.018029 |
+INFO - diffpose_frame.py - 2023-12-04 23:11:25,774 - | Epoch0012: 0801/1524 | Step 019089 | Data: 19583.163624 | Loss: 16.013975 |
+INFO - diffpose_frame.py - 2023-12-04 23:11:31,421 - | Epoch0012: 0901/1524 | Step 019189 | Data: 24568.491926 | Loss: 16.012850 |
+INFO - diffpose_frame.py - 2023-12-04 23:11:37,056 - | Epoch0012: 1001/1524 | Step 019289 | Data: 30118.172149 | Loss: 16.007223 |
+INFO - diffpose_frame.py - 2023-12-04 23:11:42,696 - | Epoch0012: 1101/1524 | Step 019389 | Data: 36231.534932 | Loss: 16.002553 |
+INFO - diffpose_frame.py - 2023-12-04 23:11:48,326 - | Epoch0012: 1201/1524 | Step 019489 | Data: 42908.442594 | Loss: 15.997691 |
+INFO - diffpose_frame.py - 2023-12-04 23:11:53,956 - | Epoch0012: 1301/1524 | Step 019589 | Data: 50148.213204 | Loss: 15.993479 |
+INFO - diffpose_frame.py - 2023-12-04 23:11:59,604 - | Epoch0012: 1401/1524 | Step 019689 | Data: 57951.695381 | Loss: 15.988855 |
+INFO - diffpose_frame.py - 2023-12-04 23:12:05,332 - | Epoch0012: 1501/1524 | Step 019789 | Data: 66324.168907 | Loss: 15.987726 |
+INFO - diffpose_frame.py - 2023-12-04 23:12:06,825 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:12:16,828 - (101/531) Data: 2.709457s | MPJPE:  32.3626 | P-MPJPE:  24.7779
+INFO - diffpose_frame.py - 2023-12-04 23:12:24,336 - (201/531) Data: 3.755420s | MPJPE:  33.3717 | P-MPJPE:  25.5464
+INFO - diffpose_frame.py - 2023-12-04 23:12:31,715 - (301/531) Data: 4.692091s | MPJPE:  34.1502 | P-MPJPE:  26.3451
+INFO - diffpose_frame.py - 2023-12-04 23:12:39,265 - (401/531) Data: 5.795695s | MPJPE:  33.7681 | P-MPJPE:  25.9078
+INFO - diffpose_frame.py - 2023-12-04 23:12:46,755 - (501/531) Data: 6.853853s | MPJPE:  33.8265 | P-MPJPE:  25.7024
+INFO - diffpose_frame.py - 2023-12-04 23:12:49,065 - sum (531/531) Data: 7.138688s | MPJPE:  33.7008 | P-MPJPE:  25.6540
+INFO - diffpose_frame.py - 2023-12-04 23:12:49,071 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0012 MPJEPE: 33.46 PA-MPJPE: 25.41 |
+INFO - diffpose_frame.py - 2023-12-04 23:12:56,731 - | Epoch0013: 0101/1524 | Step 019913 | Data: 481.028641 | Loss: 15.947802 |
+INFO - diffpose_frame.py - 2023-12-04 23:13:02,373 - | Epoch0013: 0201/1524 | Step 020013 | Data: 1526.410107 | Loss: 15.921717 |
+INFO - diffpose_frame.py - 2023-12-04 23:13:08,006 - | Epoch0013: 0301/1524 | Step 020113 | Data: 3135.427575 | Loss: 15.922234 |
+INFO - diffpose_frame.py - 2023-12-04 23:13:13,648 - | Epoch0013: 0401/1524 | Step 020213 | Data: 5308.283686 | Loss: 15.911171 |
+INFO - diffpose_frame.py - 2023-12-04 23:13:19,280 - | Epoch0013: 0501/1524 | Step 020313 | Data: 8044.774986 | Loss: 15.907206 |
+INFO - diffpose_frame.py - 2023-12-04 23:13:24,915 - | Epoch0013: 0601/1524 | Step 020413 | Data: 11344.625923 | Loss: 15.907413 |
+INFO - diffpose_frame.py - 2023-12-04 23:13:30,549 - | Epoch0013: 0701/1524 | Step 020513 | Data: 15208.046883 | Loss: 15.901324 |
+INFO - diffpose_frame.py - 2023-12-04 23:13:36,184 - | Epoch0013: 0801/1524 | Step 020613 | Data: 19634.713569 | Loss: 15.899475 |
+INFO - diffpose_frame.py - 2023-12-04 23:13:41,825 - | Epoch0013: 0901/1524 | Step 020713 | Data: 24625.220212 | Loss: 15.895987 |
+INFO - diffpose_frame.py - 2023-12-04 23:13:47,483 - | Epoch0013: 1001/1524 | Step 020813 | Data: 30180.772571 | Loss: 15.894465 |
+INFO - diffpose_frame.py - 2023-12-04 23:13:53,122 - | Epoch0013: 1101/1524 | Step 020913 | Data: 36300.888966 | Loss: 15.893353 |
+INFO - diffpose_frame.py - 2023-12-04 23:13:58,758 - | Epoch0013: 1201/1524 | Step 021013 | Data: 42985.035414 | Loss: 15.890173 |
+INFO - diffpose_frame.py - 2023-12-04 23:14:04,387 - | Epoch0013: 1301/1524 | Step 021113 | Data: 50232.422900 | Loss: 15.888771 |
+INFO - diffpose_frame.py - 2023-12-04 23:14:10,021 - | Epoch0013: 1401/1524 | Step 021213 | Data: 58042.980286 | Loss: 15.885620 |
+INFO - diffpose_frame.py - 2023-12-04 23:14:15,732 - | Epoch0013: 1501/1524 | Step 021313 | Data: 66420.359665 | Loss: 15.877545 |
+INFO - diffpose_frame.py - 2023-12-04 23:14:17,245 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:14:27,430 - (101/531) Data: 2.855636s | MPJPE:  32.2262 | P-MPJPE:  24.4127
+INFO - diffpose_frame.py - 2023-12-04 23:14:34,928 - (201/531) Data: 3.891477s | MPJPE:  33.2852 | P-MPJPE:  25.3144
+INFO - diffpose_frame.py - 2023-12-04 23:14:42,333 - (301/531) Data: 4.829224s | MPJPE:  34.1292 | P-MPJPE:  26.1047
+INFO - diffpose_frame.py - 2023-12-04 23:14:49,908 - (401/531) Data: 5.949046s | MPJPE:  33.8235 | P-MPJPE:  25.8201
+INFO - diffpose_frame.py - 2023-12-04 23:14:57,414 - (501/531) Data: 7.007310s | MPJPE:  33.9349 | P-MPJPE:  25.6925
+INFO - diffpose_frame.py - 2023-12-04 23:14:59,748 - sum (531/531) Data: 7.291371s | MPJPE:  33.8474 | P-MPJPE:  25.6745
+INFO - diffpose_frame.py - 2023-12-04 23:14:59,754 - | Best Epoch: 0001 MPJPE: 33.22 | Epoch: 0013 MPJEPE: 33.62 PA-MPJPE: 25.43 |
+INFO - diffpose_frame.py - 2023-12-04 23:15:07,488 - | Epoch0014: 0101/1524 | Step 021437 | Data: 488.883683 | Loss: 15.846540 |
+INFO - diffpose_frame.py - 2023-12-04 23:15:13,169 - | Epoch0014: 0201/1524 | Step 021537 | Data: 1543.964843 | Loss: 15.849104 |
+INFO - diffpose_frame.py - 2023-12-04 23:15:18,807 - | Epoch0014: 0301/1524 | Step 021637 | Data: 3164.454693 | Loss: 15.839051 |
+INFO - diffpose_frame.py - 2023-12-04 23:15:24,444 - | Epoch0014: 0401/1524 | Step 021737 | Data: 5348.831151 | Loss: 15.842860 |
+INFO - diffpose_frame.py - 2023-12-04 23:15:30,091 - | Epoch0014: 0501/1524 | Step 021837 | Data: 8097.427429 | Loss: 15.842475 |
+INFO - diffpose_frame.py - 2023-12-04 23:15:35,743 - | Epoch0014: 0601/1524 | Step 021937 | Data: 11410.799637 | Loss: 15.841264 |
+INFO - diffpose_frame.py - 2023-12-04 23:15:41,390 - | Epoch0014: 0701/1524 | Step 022037 | Data: 15289.029905 | Loss: 15.835886 |
+INFO - diffpose_frame.py - 2023-12-04 23:15:47,034 - | Epoch0014: 0801/1524 | Step 022137 | Data: 19731.957874 | Loss: 15.829786 |
+INFO - diffpose_frame.py - 2023-12-04 23:15:52,684 - | Epoch0014: 0901/1524 | Step 022237 | Data: 24739.527788 | Loss: 15.826018 |
+INFO - diffpose_frame.py - 2023-12-04 23:15:58,334 - | Epoch0014: 1001/1524 | Step 022337 | Data: 30312.154768 | Loss: 15.820970 |
+INFO - diffpose_frame.py - 2023-12-04 23:16:03,974 - | Epoch0014: 1101/1524 | Step 022437 | Data: 36449.316709 | Loss: 15.816346 |
+INFO - diffpose_frame.py - 2023-12-04 23:16:09,617 - | Epoch0014: 1201/1524 | Step 022537 | Data: 43150.679371 | Loss: 15.808912 |
+INFO - diffpose_frame.py - 2023-12-04 23:16:15,274 - | Epoch0014: 1301/1524 | Step 022637 | Data: 50416.844126 | Loss: 15.805807 |
+INFO - diffpose_frame.py - 2023-12-04 23:16:20,919 - | Epoch0014: 1401/1524 | Step 022737 | Data: 58248.278922 | Loss: 15.802099 |
+INFO - diffpose_frame.py - 2023-12-04 23:16:26,663 - | Epoch0014: 1501/1524 | Step 022837 | Data: 66649.353001 | Loss: 15.797860 |
+INFO - diffpose_frame.py - 2023-12-04 23:16:28,177 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:16:38,478 - (101/531) Data: 2.901236s | MPJPE:  32.8123 | P-MPJPE:  24.2267
+INFO - diffpose_frame.py - 2023-12-04 23:16:45,985 - (201/531) Data: 3.942650s | MPJPE:  33.7246 | P-MPJPE:  25.0189
+INFO - diffpose_frame.py - 2023-12-04 23:16:53,398 - (301/531) Data: 4.893290s | MPJPE:  34.3898 | P-MPJPE:  25.7608
+INFO - diffpose_frame.py - 2023-12-04 23:17:00,961 - (401/531) Data: 6.000512s | MPJPE:  33.6096 | P-MPJPE:  25.3256
+INFO - diffpose_frame.py - 2023-12-04 23:17:08,480 - (501/531) Data: 7.067115s | MPJPE:  33.4898 | P-MPJPE:  25.1307
+INFO - diffpose_frame.py - 2023-12-04 23:17:10,788 - sum (531/531) Data: 7.351415s | MPJPE:  33.3284 | P-MPJPE:  25.0839
+INFO - diffpose_frame.py - 2023-12-04 23:17:10,794 - | Best Epoch: 0014 MPJPE: 33.10 | Epoch: 0014 MPJEPE: 33.10 PA-MPJPE: 24.82 |
+INFO - diffpose_frame.py - 2023-12-04 23:17:18,546 - | Epoch0015: 0101/1524 | Step 022961 | Data: 491.724161 | Loss: 15.750193 |
+INFO - diffpose_frame.py - 2023-12-04 23:17:24,183 - | Epoch0015: 0201/1524 | Step 023061 | Data: 1545.820817 | Loss: 15.749234 |
+INFO - diffpose_frame.py - 2023-12-04 23:17:29,833 - | Epoch0015: 0301/1524 | Step 023161 | Data: 3164.455524 | Loss: 15.741359 |
+INFO - diffpose_frame.py - 2023-12-04 23:17:35,469 - | Epoch0015: 0401/1524 | Step 023261 | Data: 5347.314023 | Loss: 15.725490 |
+INFO - diffpose_frame.py - 2023-12-04 23:17:41,117 - | Epoch0015: 0501/1524 | Step 023361 | Data: 8094.331784 | Loss: 15.719619 |
+INFO - diffpose_frame.py - 2023-12-04 23:17:46,761 - | Epoch0015: 0601/1524 | Step 023461 | Data: 11406.054081 | Loss: 15.711831 |
+INFO - diffpose_frame.py - 2023-12-04 23:17:52,397 - | Epoch0015: 0701/1524 | Step 023561 | Data: 15281.802382 | Loss: 15.710449 |
+INFO - diffpose_frame.py - 2023-12-04 23:17:58,034 - | Epoch0015: 0801/1524 | Step 023661 | Data: 19721.084530 | Loss: 15.709219 |
+INFO - diffpose_frame.py - 2023-12-04 23:18:03,666 - | Epoch0015: 0901/1524 | Step 023761 | Data: 24723.775057 | Loss: 15.711925 |
+INFO - diffpose_frame.py - 2023-12-04 23:18:09,307 - | Epoch0015: 1001/1524 | Step 023861 | Data: 30290.067056 | Loss: 15.716924 |
+INFO - diffpose_frame.py - 2023-12-04 23:18:14,947 - | Epoch0015: 1101/1524 | Step 023961 | Data: 36420.483698 | Loss: 15.710595 |
+INFO - diffpose_frame.py - 2023-12-04 23:18:20,595 - | Epoch0015: 1201/1524 | Step 024061 | Data: 43115.385263 | Loss: 15.711081 |
+INFO - diffpose_frame.py - 2023-12-04 23:18:26,231 - | Epoch0015: 1301/1524 | Step 024161 | Data: 50374.399154 | Loss: 15.710061 |
+INFO - diffpose_frame.py - 2023-12-04 23:18:31,869 - | Epoch0015: 1401/1524 | Step 024261 | Data: 58197.217320 | Loss: 15.704783 |
+INFO - diffpose_frame.py - 2023-12-04 23:18:37,594 - | Epoch0015: 1501/1524 | Step 024361 | Data: 66587.774421 | Loss: 15.700221 |
+INFO - diffpose_frame.py - 2023-12-04 23:18:39,125 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:18:49,404 - (101/531) Data: 2.866733s | MPJPE:  32.7575 | P-MPJPE:  24.9372
+INFO - diffpose_frame.py - 2023-12-04 23:18:56,913 - (201/531) Data: 3.907973s | MPJPE:  33.7129 | P-MPJPE:  25.6594
+INFO - diffpose_frame.py - 2023-12-04 23:19:04,280 - (301/531) Data: 4.832428s | MPJPE:  34.4050 | P-MPJPE:  26.3978
+INFO - diffpose_frame.py - 2023-12-04 23:19:11,833 - (401/531) Data: 5.936367s | MPJPE:  33.8547 | P-MPJPE:  25.9534
+INFO - diffpose_frame.py - 2023-12-04 23:19:19,333 - (501/531) Data: 6.995223s | MPJPE:  33.8954 | P-MPJPE:  25.7599
+INFO - diffpose_frame.py - 2023-12-04 23:19:21,662 - sum (531/531) Data: 7.279355s | MPJPE:  33.7520 | P-MPJPE:  25.7077
+INFO - diffpose_frame.py - 2023-12-04 23:19:21,670 - | Best Epoch: 0014 MPJPE: 33.10 | Epoch: 0015 MPJEPE: 33.55 PA-MPJPE: 25.46 |
+INFO - diffpose_frame.py - 2023-12-04 23:19:29,435 - | Epoch0016: 0101/1524 | Step 024485 | Data: 491.926066 | Loss: 15.683628 |
+INFO - diffpose_frame.py - 2023-12-04 23:19:35,067 - | Epoch0016: 0201/1524 | Step 024585 | Data: 1547.005249 | Loss: 15.694794 |
+INFO - diffpose_frame.py - 2023-12-04 23:19:40,698 - | Epoch0016: 0301/1524 | Step 024685 | Data: 3165.468795 | Loss: 15.672923 |
+INFO - diffpose_frame.py - 2023-12-04 23:19:46,331 - | Epoch0016: 0401/1524 | Step 024785 | Data: 5347.166515 | Loss: 15.662251 |
+INFO - diffpose_frame.py - 2023-12-04 23:19:51,978 - | Epoch0016: 0501/1524 | Step 024885 | Data: 8092.866687 | Loss: 15.660413 |
+INFO - diffpose_frame.py - 2023-12-04 23:19:57,635 - | Epoch0016: 0601/1524 | Step 024985 | Data: 11403.547271 | Loss: 15.655634 |
+INFO - diffpose_frame.py - 2023-12-04 23:20:03,296 - | Epoch0016: 0701/1524 | Step 025085 | Data: 15281.080603 | Loss: 15.653230 |
+INFO - diffpose_frame.py - 2023-12-04 23:20:08,936 - | Epoch0016: 0801/1524 | Step 025185 | Data: 19722.940094 | Loss: 15.658516 |
+INFO - diffpose_frame.py - 2023-12-04 23:20:14,576 - | Epoch0016: 0901/1524 | Step 025285 | Data: 24728.609312 | Loss: 15.656334 |
+INFO - diffpose_frame.py - 2023-12-04 23:20:20,222 - | Epoch0016: 1001/1524 | Step 025385 | Data: 30298.840870 | Loss: 15.650973 |
+INFO - diffpose_frame.py - 2023-12-04 23:20:25,871 - | Epoch0016: 1101/1524 | Step 025485 | Data: 36433.914283 | Loss: 15.647368 |
+INFO - diffpose_frame.py - 2023-12-04 23:20:31,512 - | Epoch0016: 1201/1524 | Step 025585 | Data: 43133.116912 | Loss: 15.643343 |
+INFO - diffpose_frame.py - 2023-12-04 23:20:37,180 - | Epoch0016: 1301/1524 | Step 025685 | Data: 50398.381265 | Loss: 15.660615 |
+INFO - diffpose_frame.py - 2023-12-04 23:20:42,824 - | Epoch0016: 1401/1524 | Step 025785 | Data: 58228.932446 | Loss: 15.658404 |
+INFO - diffpose_frame.py - 2023-12-04 23:20:48,563 - | Epoch0016: 1501/1524 | Step 025885 | Data: 66628.333041 | Loss: 15.655367 |
+INFO - diffpose_frame.py - 2023-12-04 23:20:50,129 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:21:00,392 - (101/531) Data: 2.945174s | MPJPE:  32.2699 | P-MPJPE:  24.6539
+INFO - diffpose_frame.py - 2023-12-04 23:21:07,890 - (201/531) Data: 3.979243s | MPJPE:  33.2884 | P-MPJPE:  25.3685
+INFO - diffpose_frame.py - 2023-12-04 23:21:15,286 - (301/531) Data: 4.919201s | MPJPE:  34.1196 | P-MPJPE:  26.1293
+INFO - diffpose_frame.py - 2023-12-04 23:21:22,838 - (401/531) Data: 6.015251s | MPJPE:  33.5208 | P-MPJPE:  25.6968
+INFO - diffpose_frame.py - 2023-12-04 23:21:30,339 - (501/531) Data: 7.070647s | MPJPE:  33.5199 | P-MPJPE:  25.4850
+INFO - diffpose_frame.py - 2023-12-04 23:21:32,642 - sum (531/531) Data: 7.354286s | MPJPE:  33.3608 | P-MPJPE:  25.4308
+INFO - diffpose_frame.py - 2023-12-04 23:21:32,649 - | Best Epoch: 0016 MPJPE: 33.06 | Epoch: 0016 MPJEPE: 33.06 PA-MPJPE: 25.16 |
+INFO - diffpose_frame.py - 2023-12-04 23:21:40,246 - | Epoch0017: 0101/1524 | Step 026009 | Data: 476.547495 | Loss: 15.581902 |
+INFO - diffpose_frame.py - 2023-12-04 23:21:45,917 - | Epoch0017: 0201/1524 | Step 026109 | Data: 1517.256136 | Loss: 15.576824 |
+INFO - diffpose_frame.py - 2023-12-04 23:21:51,565 - | Epoch0017: 0301/1524 | Step 026209 | Data: 3123.712745 | Loss: 15.583738 |
+INFO - diffpose_frame.py - 2023-12-04 23:21:57,225 - | Epoch0017: 0401/1524 | Step 026309 | Data: 5294.868918 | Loss: 15.584819 |
+INFO - diffpose_frame.py - 2023-12-04 23:22:02,870 - | Epoch0017: 0501/1524 | Step 026409 | Data: 8031.822858 | Loss: 15.575634 |
+INFO - diffpose_frame.py - 2023-12-04 23:22:08,509 - | Epoch0017: 0601/1524 | Step 026509 | Data: 11333.028534 | Loss: 15.572631 |
+INFO - diffpose_frame.py - 2023-12-04 23:22:14,153 - | Epoch0017: 0701/1524 | Step 026609 | Data: 15198.339452 | Loss: 15.569863 |
+INFO - diffpose_frame.py - 2023-12-04 23:22:19,790 - | Epoch0017: 0801/1524 | Step 026709 | Data: 19627.826843 | Loss: 15.571832 |
+INFO - diffpose_frame.py - 2023-12-04 23:22:25,431 - | Epoch0017: 0901/1524 | Step 026809 | Data: 24621.090010 | Loss: 15.570047 |
+INFO - diffpose_frame.py - 2023-12-04 23:22:31,077 - | Epoch0017: 1001/1524 | Step 026909 | Data: 30178.816010 | Loss: 15.567075 |
+INFO - diffpose_frame.py - 2023-12-04 23:22:36,719 - | Epoch0017: 1101/1524 | Step 027009 | Data: 36300.894422 | Loss: 15.565578 |
+INFO - diffpose_frame.py - 2023-12-04 23:22:42,354 - | Epoch0017: 1201/1524 | Step 027109 | Data: 42986.823211 | Loss: 15.564658 |
+INFO - diffpose_frame.py - 2023-12-04 23:22:47,992 - | Epoch0017: 1301/1524 | Step 027209 | Data: 50236.641315 | Loss: 15.560519 |
+INFO - diffpose_frame.py - 2023-12-04 23:22:53,625 - | Epoch0017: 1401/1524 | Step 027309 | Data: 58049.772085 | Loss: 15.557267 |
+INFO - diffpose_frame.py - 2023-12-04 23:22:59,363 - | Epoch0017: 1501/1524 | Step 027409 | Data: 66431.003847 | Loss: 15.555712 |
+INFO - diffpose_frame.py - 2023-12-04 23:23:00,879 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:23:10,995 - (101/531) Data: 2.812904s | MPJPE:  31.4503 | P-MPJPE:  24.2009
+INFO - diffpose_frame.py - 2023-12-04 23:23:18,485 - (201/531) Data: 3.839116s | MPJPE:  32.4134 | P-MPJPE:  24.9705
+INFO - diffpose_frame.py - 2023-12-04 23:23:25,876 - (301/531) Data: 4.764912s | MPJPE:  33.1831 | P-MPJPE:  25.7421
+INFO - diffpose_frame.py - 2023-12-04 23:23:33,449 - (401/531) Data: 5.866892s | MPJPE:  32.8311 | P-MPJPE:  25.3910
+INFO - diffpose_frame.py - 2023-12-04 23:23:40,963 - (501/531) Data: 6.929132s | MPJPE:  32.9246 | P-MPJPE:  25.2336
+INFO - diffpose_frame.py - 2023-12-04 23:23:43,274 - sum (531/531) Data: 7.213400s | MPJPE:  32.8143 | P-MPJPE:  25.2052
+INFO - diffpose_frame.py - 2023-12-04 23:23:43,281 - | Best Epoch: 0017 MPJPE: 32.55 | Epoch: 0017 MPJEPE: 32.55 PA-MPJPE: 24.94 |
+INFO - diffpose_frame.py - 2023-12-04 23:23:50,926 - | Epoch0018: 0101/1524 | Step 027533 | Data: 480.922463 | Loss: 15.552482 |
+INFO - diffpose_frame.py - 2023-12-04 23:23:56,558 - | Epoch0018: 0201/1524 | Step 027633 | Data: 1524.357385 | Loss: 15.546918 |
+INFO - diffpose_frame.py - 2023-12-04 23:24:02,189 - | Epoch0018: 0301/1524 | Step 027733 | Data: 3130.765347 | Loss: 15.539370 |
+INFO - diffpose_frame.py - 2023-12-04 23:24:07,835 - | Epoch0018: 0401/1524 | Step 027833 | Data: 5301.717582 | Loss: 15.525302 |
+INFO - diffpose_frame.py - 2023-12-04 23:24:13,462 - | Epoch0018: 0501/1524 | Step 027933 | Data: 8035.760327 | Loss: 15.529241 |
+INFO - diffpose_frame.py - 2023-12-04 23:24:19,092 - | Epoch0018: 0601/1524 | Step 028033 | Data: 11332.692671 | Loss: 15.531965 |
+INFO - diffpose_frame.py - 2023-12-04 23:24:24,726 - | Epoch0018: 0701/1524 | Step 028133 | Data: 15192.656421 | Loss: 15.529545 |
+INFO - diffpose_frame.py - 2023-12-04 23:24:30,353 - | Epoch0018: 0801/1524 | Step 028233 | Data: 19615.748399 | Loss: 15.519991 |
+INFO - diffpose_frame.py - 2023-12-04 23:24:35,988 - | Epoch0018: 0901/1524 | Step 028333 | Data: 24601.853662 | Loss: 15.519044 |
+INFO - diffpose_frame.py - 2023-12-04 23:24:41,622 - | Epoch0018: 1001/1524 | Step 028433 | Data: 30151.323369 | Loss: 15.516508 |
+INFO - diffpose_frame.py - 2023-12-04 23:24:47,252 - | Epoch0018: 1101/1524 | Step 028533 | Data: 36264.113783 | Loss: 15.517782 |
+INFO - diffpose_frame.py - 2023-12-04 23:24:52,882 - | Epoch0018: 1201/1524 | Step 028633 | Data: 42939.930879 | Loss: 15.517318 |
+INFO - diffpose_frame.py - 2023-12-04 23:24:58,512 - | Epoch0018: 1301/1524 | Step 028733 | Data: 50178.578849 | Loss: 15.515349 |
+INFO - diffpose_frame.py - 2023-12-04 23:25:04,147 - | Epoch0018: 1401/1524 | Step 028833 | Data: 57980.455073 | Loss: 15.515833 |
+INFO - diffpose_frame.py - 2023-12-04 23:25:09,858 - | Epoch0018: 1501/1524 | Step 028933 | Data: 66349.620050 | Loss: 15.512756 |
+INFO - diffpose_frame.py - 2023-12-04 23:25:11,383 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:25:21,611 - (101/531) Data: 2.713020s | MPJPE:  31.5179 | P-MPJPE:  24.5497
+INFO - diffpose_frame.py - 2023-12-04 23:25:29,112 - (201/531) Data: 3.746701s | MPJPE:  32.4799 | P-MPJPE:  25.3063
+INFO - diffpose_frame.py - 2023-12-04 23:25:36,492 - (301/531) Data: 4.672804s | MPJPE:  33.2620 | P-MPJPE:  26.0579
+INFO - diffpose_frame.py - 2023-12-04 23:25:44,041 - (401/531) Data: 5.770732s | MPJPE:  32.9229 | P-MPJPE:  25.6077
+INFO - diffpose_frame.py - 2023-12-04 23:25:51,543 - (501/531) Data: 6.830552s | MPJPE:  33.0080 | P-MPJPE:  25.4079
+INFO - diffpose_frame.py - 2023-12-04 23:25:53,854 - sum (531/531) Data: 7.113735s | MPJPE:  32.9104 | P-MPJPE:  25.3644
+INFO - diffpose_frame.py - 2023-12-04 23:25:53,862 - | Best Epoch: 0017 MPJPE: 32.55 | Epoch: 0018 MPJEPE: 32.64 PA-MPJPE: 25.10 |
+INFO - diffpose_frame.py - 2023-12-04 23:26:01,602 - | Epoch0019: 0101/1524 | Step 029057 | Data: 490.083642 | Loss: 15.442811 |
+INFO - diffpose_frame.py - 2023-12-04 23:26:07,232 - | Epoch0019: 0201/1524 | Step 029157 | Data: 1542.750934 | Loss: 15.446837 |
+INFO - diffpose_frame.py - 2023-12-04 23:26:12,886 - | Epoch0019: 0301/1524 | Step 029257 | Data: 3159.526601 | Loss: 15.459137 |
+INFO - diffpose_frame.py - 2023-12-04 23:26:18,521 - | Epoch0019: 0401/1524 | Step 029357 | Data: 5340.975312 | Loss: 15.459926 |
+INFO - diffpose_frame.py - 2023-12-04 23:26:24,159 - | Epoch0019: 0501/1524 | Step 029457 | Data: 8085.831805 | Loss: 15.465993 |
+INFO - diffpose_frame.py - 2023-12-04 23:26:29,791 - | Epoch0019: 0601/1524 | Step 029557 | Data: 11394.154765 | Loss: 15.459352 |
+INFO - diffpose_frame.py - 2023-12-04 23:26:35,414 - | Epoch0019: 0701/1524 | Step 029657 | Data: 15265.405946 | Loss: 15.456990 |
+INFO - diffpose_frame.py - 2023-12-04 23:26:41,041 - | Epoch0019: 0801/1524 | Step 029757 | Data: 19699.039011 | Loss: 15.462973 |
+INFO - diffpose_frame.py - 2023-12-04 23:26:46,674 - | Epoch0019: 0901/1524 | Step 029857 | Data: 24695.820075 | Loss: 15.462219 |
+INFO - diffpose_frame.py - 2023-12-04 23:26:52,308 - | Epoch0019: 1001/1524 | Step 029957 | Data: 30256.026386 | Loss: 15.465578 |
+INFO - diffpose_frame.py - 2023-12-04 23:26:57,937 - | Epoch0019: 1101/1524 | Step 030057 | Data: 36379.421334 | Loss: 15.459294 |
+INFO - diffpose_frame.py - 2023-12-04 23:27:03,567 - | Epoch0019: 1201/1524 | Step 030157 | Data: 43065.781633 | Loss: 15.457249 |
+INFO - diffpose_frame.py - 2023-12-04 23:27:09,198 - | Epoch0019: 1301/1524 | Step 030257 | Data: 50315.077785 | Loss: 15.454283 |
+INFO - diffpose_frame.py - 2023-12-04 23:27:14,829 - | Epoch0019: 1401/1524 | Step 030357 | Data: 58127.749368 | Loss: 15.450914 |
+INFO - diffpose_frame.py - 2023-12-04 23:27:20,539 - | Epoch0019: 1501/1524 | Step 030457 | Data: 66506.924722 | Loss: 15.446160 |
+INFO - diffpose_frame.py - 2023-12-04 23:27:22,035 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:27:32,138 - (101/531) Data: 2.736307s | MPJPE:  31.5038 | P-MPJPE:  24.1792
+INFO - diffpose_frame.py - 2023-12-04 23:27:39,633 - (201/531) Data: 3.766751s | MPJPE:  32.5017 | P-MPJPE:  24.9991
+INFO - diffpose_frame.py - 2023-12-04 23:27:47,015 - (301/531) Data: 4.696039s | MPJPE:  33.3036 | P-MPJPE:  25.7974
+INFO - diffpose_frame.py - 2023-12-04 23:27:54,571 - (401/531) Data: 5.797398s | MPJPE:  32.8067 | P-MPJPE:  25.3301
+INFO - diffpose_frame.py - 2023-12-04 23:28:02,072 - (501/531) Data: 6.854357s | MPJPE:  32.8546 | P-MPJPE:  25.1598
+INFO - diffpose_frame.py - 2023-12-04 23:28:04,408 - sum (531/531) Data: 7.139126s | MPJPE:  32.7320 | P-MPJPE:  25.1180
+INFO - diffpose_frame.py - 2023-12-04 23:28:04,415 - | Best Epoch: 0019 MPJPE: 32.49 | Epoch: 0019 MPJEPE: 32.49 PA-MPJPE: 24.84 |
+INFO - diffpose_frame.py - 2023-12-04 23:28:12,086 - | Epoch0020: 0101/1524 | Step 030581 | Data: 482.712701 | Loss: 15.430588 |
+INFO - diffpose_frame.py - 2023-12-04 23:28:17,765 - | Epoch0020: 0201/1524 | Step 030681 | Data: 1530.108542 | Loss: 15.417799 |
+INFO - diffpose_frame.py - 2023-12-04 23:28:23,412 - | Epoch0020: 0301/1524 | Step 030781 | Data: 3145.076645 | Loss: 15.410417 |
+INFO - diffpose_frame.py - 2023-12-04 23:28:29,042 - | Epoch0020: 0401/1524 | Step 030881 | Data: 5323.722101 | Loss: 15.413320 |
+INFO - diffpose_frame.py - 2023-12-04 23:28:34,667 - | Epoch0020: 0501/1524 | Step 030981 | Data: 8064.941571 | Loss: 15.411541 |
+INFO - diffpose_frame.py - 2023-12-04 23:28:40,295 - | Epoch0020: 0601/1524 | Step 031081 | Data: 11368.726972 | Loss: 15.407273 |
+INFO - diffpose_frame.py - 2023-12-04 23:28:45,927 - | Epoch0020: 0701/1524 | Step 031181 | Data: 15235.561455 | Loss: 15.396964 |
+INFO - diffpose_frame.py - 2023-12-04 23:28:51,566 - | Epoch0020: 0801/1524 | Step 031281 | Data: 19666.012964 | Loss: 15.399288 |
+INFO - diffpose_frame.py - 2023-12-04 23:28:57,201 - | Epoch0020: 0901/1524 | Step 031381 | Data: 24660.232244 | Loss: 15.401036 |
+INFO - diffpose_frame.py - 2023-12-04 23:29:02,833 - | Epoch0020: 1001/1524 | Step 031481 | Data: 30217.549153 | Loss: 15.403315 |
+INFO - diffpose_frame.py - 2023-12-04 23:29:08,469 - | Epoch0020: 1101/1524 | Step 031581 | Data: 36338.335214 | Loss: 15.400158 |
+INFO - diffpose_frame.py - 2023-12-04 23:29:14,099 - | Epoch0020: 1201/1524 | Step 031681 | Data: 43022.383433 | Loss: 15.401527 |
+INFO - diffpose_frame.py - 2023-12-04 23:29:19,738 - | Epoch0020: 1301/1524 | Step 031781 | Data: 50269.994923 | Loss: 15.396715 |
+INFO - diffpose_frame.py - 2023-12-04 23:29:25,373 - | Epoch0020: 1401/1524 | Step 031881 | Data: 58081.303400 | Loss: 15.394245 |
+INFO - diffpose_frame.py - 2023-12-04 23:29:31,082 - | Epoch0020: 1501/1524 | Step 031981 | Data: 66459.556330 | Loss: 15.395550 |
+INFO - diffpose_frame.py - 2023-12-04 23:29:32,583 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:29:42,798 - (101/531) Data: 2.840947s | MPJPE:  31.7618 | P-MPJPE:  24.5625
+INFO - diffpose_frame.py - 2023-12-04 23:29:50,315 - (201/531) Data: 3.881944s | MPJPE:  32.7886 | P-MPJPE:  25.3284
+INFO - diffpose_frame.py - 2023-12-04 23:29:57,712 - (301/531) Data: 4.811797s | MPJPE:  33.5469 | P-MPJPE:  26.0630
+INFO - diffpose_frame.py - 2023-12-04 23:30:05,277 - (401/531) Data: 5.907286s | MPJPE:  33.1419 | P-MPJPE:  25.6620
+INFO - diffpose_frame.py - 2023-12-04 23:30:12,784 - (501/531) Data: 6.960519s | MPJPE:  33.1652 | P-MPJPE:  25.4696
+INFO - diffpose_frame.py - 2023-12-04 23:30:15,098 - sum (531/531) Data: 7.244533s | MPJPE:  33.0451 | P-MPJPE:  25.4258
+INFO - diffpose_frame.py - 2023-12-04 23:30:15,105 - | Best Epoch: 0019 MPJPE: 32.49 | Epoch: 0020 MPJEPE: 32.80 PA-MPJPE: 25.17 |
+INFO - diffpose_frame.py - 2023-12-04 23:30:23,002 - | Epoch0021: 0101/1524 | Step 032105 | Data: 505.156324 | Loss: 15.334915 |
+INFO - diffpose_frame.py - 2023-12-04 23:30:28,678 - | Epoch0021: 0201/1524 | Step 032205 | Data: 1575.848324 | Loss: 15.328280 |
+INFO - diffpose_frame.py - 2023-12-04 23:30:34,317 - | Epoch0021: 0301/1524 | Step 032305 | Data: 3212.417046 | Loss: 15.336806 |
+INFO - diffpose_frame.py - 2023-12-04 23:30:39,971 - | Epoch0021: 0401/1524 | Step 032405 | Data: 5413.377095 | Loss: 15.358260 |
+INFO - diffpose_frame.py - 2023-12-04 23:30:45,608 - | Epoch0021: 0501/1524 | Step 032505 | Data: 8178.959846 | Loss: 15.356792 |
+INFO - diffpose_frame.py - 2023-12-04 23:30:51,251 - | Epoch0021: 0601/1524 | Step 032605 | Data: 11508.555198 | Loss: 15.357781 |
+INFO - diffpose_frame.py - 2023-12-04 23:30:56,891 - | Epoch0021: 0701/1524 | Step 032705 | Data: 15402.373905 | Loss: 15.353528 |
+INFO - diffpose_frame.py - 2023-12-04 23:31:02,540 - | Epoch0021: 0801/1524 | Step 032805 | Data: 19860.219347 | Loss: 15.351701 |
+INFO - diffpose_frame.py - 2023-12-04 23:31:08,191 - | Epoch0021: 0901/1524 | Step 032905 | Data: 24883.282892 | Loss: 15.345712 |
+INFO - diffpose_frame.py - 2023-12-04 23:31:13,855 - | Epoch0021: 1001/1524 | Step 033005 | Data: 30472.103477 | Loss: 15.340794 |
+INFO - diffpose_frame.py - 2023-12-04 23:31:19,487 - | Epoch0021: 1101/1524 | Step 033105 | Data: 36625.833354 | Loss: 15.338258 |
+INFO - diffpose_frame.py - 2023-12-04 23:31:25,123 - | Epoch0021: 1201/1524 | Step 033205 | Data: 43342.987736 | Loss: 15.340770 |
+INFO - diffpose_frame.py - 2023-12-04 23:31:30,759 - | Epoch0021: 1301/1524 | Step 033305 | Data: 50623.779244 | Loss: 15.341889 |
+INFO - diffpose_frame.py - 2023-12-04 23:31:36,398 - | Epoch0021: 1401/1524 | Step 033405 | Data: 58467.869059 | Loss: 15.342704 |
+INFO - diffpose_frame.py - 2023-12-04 23:31:42,125 - | Epoch0021: 1501/1524 | Step 033505 | Data: 66880.822258 | Loss: 15.342600 |
+INFO - diffpose_frame.py - 2023-12-04 23:31:43,651 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:31:53,829 - (101/531) Data: 2.811095s | MPJPE:  31.1613 | P-MPJPE:  24.1463
+INFO - diffpose_frame.py - 2023-12-04 23:32:01,315 - (201/531) Data: 3.838927s | MPJPE:  32.2102 | P-MPJPE:  24.9196
+INFO - diffpose_frame.py - 2023-12-04 23:32:08,713 - (301/531) Data: 4.780757s | MPJPE:  33.0161 | P-MPJPE:  25.7008
+INFO - diffpose_frame.py - 2023-12-04 23:32:16,266 - (401/531) Data: 5.880699s | MPJPE:  32.4834 | P-MPJPE:  25.2533
+INFO - diffpose_frame.py - 2023-12-04 23:32:23,769 - (501/531) Data: 6.937100s | MPJPE:  32.5423 | P-MPJPE:  25.0522
+INFO - diffpose_frame.py - 2023-12-04 23:32:26,091 - sum (531/531) Data: 7.220825s | MPJPE:  32.4096 | P-MPJPE:  25.0027
+INFO - diffpose_frame.py - 2023-12-04 23:32:26,098 - | Best Epoch: 0021 MPJPE: 32.10 | Epoch: 0021 MPJEPE: 32.10 PA-MPJPE: 24.72 |
+INFO - diffpose_frame.py - 2023-12-04 23:32:33,665 - | Epoch0022: 0101/1524 | Step 033629 | Data: 473.185958 | Loss: 15.316100 |
+INFO - diffpose_frame.py - 2023-12-04 23:32:39,309 - | Epoch0022: 0201/1524 | Step 033729 | Data: 1509.724725 | Loss: 15.316831 |
+INFO - diffpose_frame.py - 2023-12-04 23:32:44,946 - | Epoch0022: 0301/1524 | Step 033829 | Data: 3109.744787 | Loss: 15.325513 |
+INFO - diffpose_frame.py - 2023-12-04 23:32:50,585 - | Epoch0022: 0401/1524 | Step 033929 | Data: 5273.907792 | Loss: 15.323241 |
+INFO - diffpose_frame.py - 2023-12-04 23:32:56,227 - | Epoch0022: 0501/1524 | Step 034029 | Data: 8001.741685 | Loss: 15.320487 |
+INFO - diffpose_frame.py - 2023-12-04 23:33:01,862 - | Epoch0022: 0601/1524 | Step 034129 | Data: 11293.588693 | Loss: 15.314516 |
+INFO - diffpose_frame.py - 2023-12-04 23:33:07,491 - | Epoch0022: 0701/1524 | Step 034229 | Data: 15149.041151 | Loss: 15.318134 |
+INFO - diffpose_frame.py - 2023-12-04 23:33:13,123 - | Epoch0022: 0801/1524 | Step 034329 | Data: 19567.262850 | Loss: 15.316407 |
+INFO - diffpose_frame.py - 2023-12-04 23:33:18,763 - | Epoch0022: 0901/1524 | Step 034429 | Data: 24548.781300 | Loss: 15.315573 |
+INFO - diffpose_frame.py - 2023-12-04 23:33:24,388 - | Epoch0022: 1001/1524 | Step 034529 | Data: 30093.535866 | Loss: 15.313981 |
+INFO - diffpose_frame.py - 2023-12-04 23:33:30,014 - | Epoch0022: 1101/1524 | Step 034629 | Data: 36200.934296 | Loss: 15.309766 |
+INFO - diffpose_frame.py - 2023-12-04 23:33:35,643 - | Epoch0022: 1201/1524 | Step 034729 | Data: 42871.300345 | Loss: 15.308747 |
+INFO - diffpose_frame.py - 2023-12-04 23:33:41,279 - | Epoch0022: 1301/1524 | Step 034829 | Data: 50104.670285 | Loss: 15.306796 |
+INFO - diffpose_frame.py - 2023-12-04 23:33:46,921 - | Epoch0022: 1401/1524 | Step 034929 | Data: 57902.217790 | Loss: 15.305109 |
+INFO - diffpose_frame.py - 2023-12-04 23:33:52,635 - | Epoch0022: 1501/1524 | Step 035029 | Data: 66267.429630 | Loss: 15.304741 |
+INFO - diffpose_frame.py - 2023-12-04 23:33:54,138 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:34:04,297 - (101/531) Data: 2.750367s | MPJPE:  32.1360 | P-MPJPE:  24.3966
+INFO - diffpose_frame.py - 2023-12-04 23:34:11,823 - (201/531) Data: 3.804894s | MPJPE:  33.0152 | P-MPJPE:  25.1655
+INFO - diffpose_frame.py - 2023-12-04 23:34:19,241 - (301/531) Data: 4.737835s | MPJPE:  33.7275 | P-MPJPE:  25.9277
+INFO - diffpose_frame.py - 2023-12-04 23:34:26,796 - (401/531) Data: 5.834728s | MPJPE:  33.2724 | P-MPJPE:  25.5265
+INFO - diffpose_frame.py - 2023-12-04 23:34:34,291 - (501/531) Data: 6.887036s | MPJPE:  33.2936 | P-MPJPE:  25.3448
+INFO - diffpose_frame.py - 2023-12-04 23:34:36,591 - sum (531/531) Data: 7.169575s | MPJPE:  33.1571 | P-MPJPE:  25.3034
+INFO - diffpose_frame.py - 2023-12-04 23:34:36,598 - | Best Epoch: 0021 MPJPE: 32.10 | Epoch: 0022 MPJEPE: 32.94 PA-MPJPE: 25.06 |
+INFO - diffpose_frame.py - 2023-12-04 23:34:44,259 - | Epoch0023: 0101/1524 | Step 035153 | Data: 480.444714 | Loss: 15.298986 |
+INFO - diffpose_frame.py - 2023-12-04 23:34:49,898 - | Epoch0023: 0201/1524 | Step 035253 | Data: 1525.880483 | Loss: 15.260049 |
+INFO - diffpose_frame.py - 2023-12-04 23:34:55,537 - | Epoch0023: 0301/1524 | Step 035353 | Data: 3135.383265 | Loss: 15.258701 |
+INFO - diffpose_frame.py - 2023-12-04 23:35:01,165 - | Epoch0023: 0401/1524 | Step 035453 | Data: 5307.755636 | Loss: 15.254085 |
+INFO - diffpose_frame.py - 2023-12-04 23:35:06,800 - | Epoch0023: 0501/1524 | Step 035553 | Data: 8043.323301 | Loss: 15.249123 |
+INFO - diffpose_frame.py - 2023-12-04 23:35:12,444 - | Epoch0023: 0601/1524 | Step 035653 | Data: 11342.782514 | Loss: 15.242948 |
+INFO - diffpose_frame.py - 2023-12-04 23:35:18,086 - | Epoch0023: 0701/1524 | Step 035753 | Data: 15206.722339 | Loss: 15.244061 |
+INFO - diffpose_frame.py - 2023-12-04 23:35:23,726 - | Epoch0023: 0801/1524 | Step 035853 | Data: 19634.818946 | Loss: 15.244132 |
+INFO - diffpose_frame.py - 2023-12-04 23:35:29,362 - | Epoch0023: 0901/1524 | Step 035953 | Data: 24626.688668 | Loss: 15.243853 |
+INFO - diffpose_frame.py - 2023-12-04 23:35:34,996 - | Epoch0023: 1001/1524 | Step 036053 | Data: 30182.132001 | Loss: 15.241968 |
+INFO - diffpose_frame.py - 2023-12-04 23:35:40,633 - | Epoch0023: 1101/1524 | Step 036153 | Data: 36300.990377 | Loss: 15.246367 |
+INFO - diffpose_frame.py - 2023-12-04 23:35:46,272 - | Epoch0023: 1201/1524 | Step 036253 | Data: 42983.617249 | Loss: 15.245731 |
+INFO - diffpose_frame.py - 2023-12-04 23:35:51,908 - | Epoch0023: 1301/1524 | Step 036353 | Data: 50230.193661 | Loss: 15.245825 |
+INFO - diffpose_frame.py - 2023-12-04 23:35:57,545 - | Epoch0023: 1401/1524 | Step 036453 | Data: 58040.423312 | Loss: 15.246019 |
+INFO - diffpose_frame.py - 2023-12-04 23:36:03,268 - | Epoch0023: 1501/1524 | Step 036553 | Data: 66418.226291 | Loss: 15.247031 |
+INFO - diffpose_frame.py - 2023-12-04 23:36:04,781 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:36:15,049 - (101/531) Data: 2.935426s | MPJPE:  31.0808 | P-MPJPE:  24.2597
+INFO - diffpose_frame.py - 2023-12-04 23:36:22,548 - (201/531) Data: 3.972891s | MPJPE:  31.9418 | P-MPJPE:  24.9431
+INFO - diffpose_frame.py - 2023-12-04 23:36:29,930 - (301/531) Data: 4.897725s | MPJPE:  32.6264 | P-MPJPE:  25.6744
+INFO - diffpose_frame.py - 2023-12-04 23:36:37,478 - (401/531) Data: 5.995980s | MPJPE:  32.2241 | P-MPJPE:  25.2243
+INFO - diffpose_frame.py - 2023-12-04 23:36:44,972 - (501/531) Data: 7.055358s | MPJPE:  32.2981 | P-MPJPE:  25.0316
+INFO - diffpose_frame.py - 2023-12-04 23:36:47,307 - sum (531/531) Data: 7.338541s | MPJPE:  32.1712 | P-MPJPE:  24.9833
+INFO - diffpose_frame.py - 2023-12-04 23:36:47,314 - | Best Epoch: 0023 MPJPE: 31.94 | Epoch: 0023 MPJEPE: 31.94 PA-MPJPE: 24.74 |
+INFO - diffpose_frame.py - 2023-12-04 23:36:54,986 - | Epoch0024: 0101/1524 | Step 036677 | Data: 482.065952 | Loss: 15.265398 |
+INFO - diffpose_frame.py - 2023-12-04 23:37:00,623 - | Epoch0024: 0201/1524 | Step 036777 | Data: 1528.141568 | Loss: 15.252738 |
+INFO - diffpose_frame.py - 2023-12-04 23:37:06,270 - | Epoch0024: 0301/1524 | Step 036877 | Data: 3138.634705 | Loss: 15.253604 |
+INFO - diffpose_frame.py - 2023-12-04 23:37:11,906 - | Epoch0024: 0401/1524 | Step 036977 | Data: 5313.601799 | Loss: 15.242475 |
+INFO - diffpose_frame.py - 2023-12-04 23:37:17,537 - | Epoch0024: 0501/1524 | Step 037077 | Data: 8051.595750 | Loss: 15.246330 |
+INFO - diffpose_frame.py - 2023-12-04 23:37:23,175 - | Epoch0024: 0601/1524 | Step 037177 | Data: 11352.766468 | Loss: 15.242308 |
+INFO - diffpose_frame.py - 2023-12-04 23:37:28,842 - | Epoch0024: 0701/1524 | Step 037277 | Data: 15219.468999 | Loss: 15.241765 |
+INFO - diffpose_frame.py - 2023-12-04 23:37:34,505 - | Epoch0024: 0801/1524 | Step 037377 | Data: 19653.146120 | Loss: 15.232562 |
+INFO - diffpose_frame.py - 2023-12-04 23:37:40,150 - | Epoch0024: 0901/1524 | Step 037477 | Data: 24651.653466 | Loss: 15.227389 |
+INFO - diffpose_frame.py - 2023-12-04 23:37:45,785 - | Epoch0024: 1001/1524 | Step 037577 | Data: 30214.090048 | Loss: 15.229467 |
+INFO - diffpose_frame.py - 2023-12-04 23:37:51,417 - | Epoch0024: 1101/1524 | Step 037677 | Data: 36339.878950 | Loss: 15.226862 |
+INFO - diffpose_frame.py - 2023-12-04 23:37:57,056 - | Epoch0024: 1201/1524 | Step 037777 | Data: 43029.400633 | Loss: 15.220430 |
+INFO - diffpose_frame.py - 2023-12-04 23:38:02,692 - | Epoch0024: 1301/1524 | Step 037877 | Data: 50282.601518 | Loss: 15.217814 |
+INFO - diffpose_frame.py - 2023-12-04 23:38:08,330 - | Epoch0024: 1401/1524 | Step 037977 | Data: 58099.539527 | Loss: 15.217076 |
+INFO - diffpose_frame.py - 2023-12-04 23:38:14,044 - | Epoch0024: 1501/1524 | Step 038077 | Data: 66483.898403 | Loss: 15.216247 |
+INFO - diffpose_frame.py - 2023-12-04 23:38:15,554 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:38:25,748 - (101/531) Data: 2.754556s | MPJPE:  31.5207 | P-MPJPE:  24.2853
+INFO - diffpose_frame.py - 2023-12-04 23:38:33,249 - (201/531) Data: 3.795127s | MPJPE:  32.4291 | P-MPJPE:  25.0335
+INFO - diffpose_frame.py - 2023-12-04 23:38:40,636 - (301/531) Data: 4.723291s | MPJPE:  33.1411 | P-MPJPE:  25.7971
+INFO - diffpose_frame.py - 2023-12-04 23:38:48,185 - (401/531) Data: 5.823118s | MPJPE:  32.8112 | P-MPJPE:  25.4487
+INFO - diffpose_frame.py - 2023-12-04 23:38:55,688 - (501/531) Data: 6.878378s | MPJPE:  32.9043 | P-MPJPE:  25.2830
+INFO - diffpose_frame.py - 2023-12-04 23:38:58,007 - sum (531/531) Data: 7.162643s | MPJPE:  32.7929 | P-MPJPE:  25.2546
+INFO - diffpose_frame.py - 2023-12-04 23:38:58,014 - | Best Epoch: 0023 MPJPE: 31.94 | Epoch: 0024 MPJEPE: 32.55 PA-MPJPE: 25.01 |
+INFO - diffpose_frame.py - 2023-12-04 23:39:05,717 - | Epoch0025: 0101/1524 | Step 038201 | Data: 486.810876 | Loss: 15.168202 |
+INFO - diffpose_frame.py - 2023-12-04 23:39:11,345 - | Epoch0025: 0201/1524 | Step 038301 | Data: 1535.648661 | Loss: 15.174860 |
+INFO - diffpose_frame.py - 2023-12-04 23:39:16,964 - | Epoch0025: 0301/1524 | Step 038401 | Data: 3146.811170 | Loss: 15.181173 |
+INFO - diffpose_frame.py - 2023-12-04 23:39:22,587 - | Epoch0025: 0401/1524 | Step 038501 | Data: 5320.209694 | Loss: 15.185919 |
+INFO - diffpose_frame.py - 2023-12-04 23:39:28,221 - | Epoch0025: 0501/1524 | Step 038601 | Data: 8056.231261 | Loss: 15.184797 |
+INFO - diffpose_frame.py - 2023-12-04 23:39:33,853 - | Epoch0025: 0601/1524 | Step 038701 | Data: 11355.770972 | Loss: 15.187903 |
+INFO - diffpose_frame.py - 2023-12-04 23:39:39,486 - | Epoch0025: 0701/1524 | Step 038801 | Data: 15218.332322 | Loss: 15.188585 |
+INFO - diffpose_frame.py - 2023-12-04 23:39:45,120 - | Epoch0025: 0801/1524 | Step 038901 | Data: 19644.355014 | Loss: 15.191752 |
+INFO - diffpose_frame.py - 2023-12-04 23:39:50,759 - | Epoch0025: 0901/1524 | Step 039001 | Data: 24634.320339 | Loss: 15.192640 |
+INFO - diffpose_frame.py - 2023-12-04 23:39:56,389 - | Epoch0025: 1001/1524 | Step 039101 | Data: 30187.564207 | Loss: 15.190921 |
+INFO - diffpose_frame.py - 2023-12-04 23:40:02,015 - | Epoch0025: 1101/1524 | Step 039201 | Data: 36303.558867 | Loss: 15.185906 |
+INFO - diffpose_frame.py - 2023-12-04 23:40:07,649 - | Epoch0025: 1201/1524 | Step 039301 | Data: 42982.470168 | Loss: 15.184306 |
+INFO - diffpose_frame.py - 2023-12-04 23:40:13,280 - | Epoch0025: 1301/1524 | Step 039401 | Data: 50224.738762 | Loss: 15.178711 |
+INFO - diffpose_frame.py - 2023-12-04 23:40:18,906 - | Epoch0025: 1401/1524 | Step 039501 | Data: 58029.935396 | Loss: 15.179046 |
+INFO - diffpose_frame.py - 2023-12-04 23:40:24,612 - | Epoch0025: 1501/1524 | Step 039601 | Data: 66401.290415 | Loss: 15.180442 |
+INFO - diffpose_frame.py - 2023-12-04 23:40:26,115 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:40:36,292 - (101/531) Data: 2.755125s | MPJPE:  31.4303 | P-MPJPE:  24.7349
+INFO - diffpose_frame.py - 2023-12-04 23:40:43,781 - (201/531) Data: 3.792535s | MPJPE:  32.3149 | P-MPJPE:  25.4540
+INFO - diffpose_frame.py - 2023-12-04 23:40:51,160 - (301/531) Data: 4.720302s | MPJPE:  32.9762 | P-MPJPE:  26.1620
+INFO - diffpose_frame.py - 2023-12-04 23:40:58,706 - (401/531) Data: 5.821142s | MPJPE:  32.6889 | P-MPJPE:  25.7234
+INFO - diffpose_frame.py - 2023-12-04 23:41:06,202 - (501/531) Data: 6.880210s | MPJPE:  32.8265 | P-MPJPE:  25.5216
+INFO - diffpose_frame.py - 2023-12-04 23:41:08,512 - sum (531/531) Data: 7.164083s | MPJPE:  32.7347 | P-MPJPE:  25.4837
+INFO - diffpose_frame.py - 2023-12-04 23:41:08,519 - | Best Epoch: 0023 MPJPE: 31.94 | Epoch: 0025 MPJEPE: 32.50 PA-MPJPE: 25.25 |
+INFO - diffpose_frame.py - 2023-12-04 23:41:16,219 - | Epoch0026: 0101/1524 | Step 039725 | Data: 486.471996 | Loss: 15.132358 |
+INFO - diffpose_frame.py - 2023-12-04 23:41:21,896 - | Epoch0026: 0201/1524 | Step 039825 | Data: 1537.288812 | Loss: 15.139959 |
+INFO - diffpose_frame.py - 2023-12-04 23:41:27,538 - | Epoch0026: 0301/1524 | Step 039925 | Data: 3154.406557 | Loss: 15.146760 |
+INFO - diffpose_frame.py - 2023-12-04 23:41:33,169 - | Epoch0026: 0401/1524 | Step 040025 | Data: 5335.207717 | Loss: 15.150478 |
+INFO - diffpose_frame.py - 2023-12-04 23:41:38,804 - | Epoch0026: 0501/1524 | Step 040125 | Data: 8079.426914 | Loss: 15.149679 |
+INFO - diffpose_frame.py - 2023-12-04 23:41:44,438 - | Epoch0026: 0601/1524 | Step 040225 | Data: 11387.168339 | Loss: 15.148263 |
+INFO - diffpose_frame.py - 2023-12-04 23:41:50,069 - | Epoch0026: 0701/1524 | Step 040325 | Data: 15258.032330 | Loss: 15.147210 |
+INFO - diffpose_frame.py - 2023-12-04 23:41:55,692 - | Epoch0026: 0801/1524 | Step 040425 | Data: 19691.457191 | Loss: 15.145246 |
+INFO - diffpose_frame.py - 2023-12-04 23:42:01,320 - | Epoch0026: 0901/1524 | Step 040525 | Data: 24687.497033 | Loss: 15.146303 |
+INFO - diffpose_frame.py - 2023-12-04 23:42:06,950 - | Epoch0026: 1001/1524 | Step 040625 | Data: 30246.526449 | Loss: 15.144801 |
+INFO - diffpose_frame.py - 2023-12-04 23:42:12,588 - | Epoch0026: 1101/1524 | Step 040725 | Data: 36368.987610 | Loss: 15.142828 |
+INFO - diffpose_frame.py - 2023-12-04 23:42:18,222 - | Epoch0026: 1201/1524 | Step 040825 | Data: 43054.842331 | Loss: 15.141996 |
+INFO - diffpose_frame.py - 2023-12-04 23:42:23,849 - | Epoch0026: 1301/1524 | Step 040925 | Data: 50303.828463 | Loss: 15.140492 |
+INFO - diffpose_frame.py - 2023-12-04 23:42:29,475 - | Epoch0026: 1401/1524 | Step 041025 | Data: 58115.404785 | Loss: 15.140742 |
+INFO - diffpose_frame.py - 2023-12-04 23:42:35,188 - | Epoch0026: 1501/1524 | Step 041125 | Data: 66493.753319 | Loss: 15.137735 |
+INFO - diffpose_frame.py - 2023-12-04 23:42:36,744 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:42:46,813 - (101/531) Data: 2.730620s | MPJPE:  30.6951 | P-MPJPE:  24.1077
+INFO - diffpose_frame.py - 2023-12-04 23:42:54,315 - (201/531) Data: 3.765417s | MPJPE:  31.6835 | P-MPJPE:  24.8770
+INFO - diffpose_frame.py - 2023-12-04 23:43:01,695 - (301/531) Data: 4.694818s | MPJPE:  32.4147 | P-MPJPE:  25.6354
+INFO - diffpose_frame.py - 2023-12-04 23:43:09,246 - (401/531) Data: 5.794065s | MPJPE:  32.1803 | P-MPJPE:  25.2590
+INFO - diffpose_frame.py - 2023-12-04 23:43:16,750 - (501/531) Data: 6.850761s | MPJPE:  32.3676 | P-MPJPE:  25.0924
+INFO - diffpose_frame.py - 2023-12-04 23:43:19,061 - sum (531/531) Data: 7.135292s | MPJPE:  32.2878 | P-MPJPE:  25.0669
+INFO - diffpose_frame.py - 2023-12-04 23:43:19,069 - | Best Epoch: 0023 MPJPE: 31.94 | Epoch: 0026 MPJEPE: 32.02 PA-MPJPE: 24.82 |
+INFO - diffpose_frame.py - 2023-12-04 23:43:26,658 - | Epoch0027: 0101/1524 | Step 041249 | Data: 475.710344 | Loss: 15.121978 |
+INFO - diffpose_frame.py - 2023-12-04 23:43:32,293 - | Epoch0027: 0201/1524 | Step 041349 | Data: 1513.667232 | Loss: 15.127771 |
+INFO - diffpose_frame.py - 2023-12-04 23:43:37,925 - | Epoch0027: 0301/1524 | Step 041449 | Data: 3114.785193 | Loss: 15.122987 |
+INFO - diffpose_frame.py - 2023-12-04 23:43:43,561 - | Epoch0027: 0401/1524 | Step 041549 | Data: 5279.013650 | Loss: 15.133416 |
+INFO - diffpose_frame.py - 2023-12-04 23:43:49,227 - | Epoch0027: 0501/1524 | Step 041649 | Data: 8009.545219 | Loss: 15.125692 |
+INFO - diffpose_frame.py - 2023-12-04 23:43:54,860 - | Epoch0027: 0601/1524 | Step 041749 | Data: 11304.380265 | Loss: 15.125309 |
+INFO - diffpose_frame.py - 2023-12-04 23:44:00,496 - | Epoch0027: 0701/1524 | Step 041849 | Data: 15162.219157 | Loss: 15.118816 |
+INFO - diffpose_frame.py - 2023-12-04 23:44:06,129 - | Epoch0027: 0801/1524 | Step 041949 | Data: 19583.720019 | Loss: 15.114569 |
+INFO - diffpose_frame.py - 2023-12-04 23:44:11,760 - | Epoch0027: 0901/1524 | Step 042049 | Data: 24568.393982 | Loss: 15.115544 |
+INFO - diffpose_frame.py - 2023-12-04 23:44:17,396 - | Epoch0027: 1001/1524 | Step 042149 | Data: 30116.700193 | Loss: 15.113916 |
+INFO - diffpose_frame.py - 2023-12-04 23:44:23,063 - | Epoch0027: 1101/1524 | Step 042249 | Data: 36229.760684 | Loss: 15.113602 |
+INFO - diffpose_frame.py - 2023-12-04 23:44:28,702 - | Epoch0027: 1201/1524 | Step 042349 | Data: 42908.463418 | Loss: 15.109960 |
+INFO - diffpose_frame.py - 2023-12-04 23:44:34,337 - | Epoch0027: 1301/1524 | Step 042449 | Data: 50150.748389 | Loss: 15.107377 |
+INFO - diffpose_frame.py - 2023-12-04 23:44:39,981 - | Epoch0027: 1401/1524 | Step 042549 | Data: 57956.833904 | Loss: 15.105034 |
+INFO - diffpose_frame.py - 2023-12-04 23:44:45,720 - | Epoch0027: 1501/1524 | Step 042649 | Data: 66332.115595 | Loss: 15.104637 |
+INFO - diffpose_frame.py - 2023-12-04 23:44:47,221 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:44:57,257 - (101/531) Data: 2.716274s | MPJPE:  31.2169 | P-MPJPE:  24.2833
+INFO - diffpose_frame.py - 2023-12-04 23:45:04,744 - (201/531) Data: 3.744581s | MPJPE:  32.1119 | P-MPJPE:  25.0404
+INFO - diffpose_frame.py - 2023-12-04 23:45:12,124 - (301/531) Data: 4.670428s | MPJPE:  32.8218 | P-MPJPE:  25.7923
+INFO - diffpose_frame.py - 2023-12-04 23:45:19,685 - (401/531) Data: 5.766150s | MPJPE:  32.5327 | P-MPJPE:  25.4213
+INFO - diffpose_frame.py - 2023-12-04 23:45:27,183 - (501/531) Data: 6.816720s | MPJPE:  32.6241 | P-MPJPE:  25.2202
+INFO - diffpose_frame.py - 2023-12-04 23:45:29,549 - sum (531/531) Data: 7.101292s | MPJPE:  32.5213 | P-MPJPE:  25.1814
+INFO - diffpose_frame.py - 2023-12-04 23:45:29,555 - | Best Epoch: 0023 MPJPE: 31.94 | Epoch: 0027 MPJEPE: 32.29 PA-MPJPE: 24.95 |
+INFO - diffpose_frame.py - 2023-12-04 23:45:37,252 - | Epoch0028: 0101/1524 | Step 042773 | Data: 486.014359 | Loss: 15.112324 |
+INFO - diffpose_frame.py - 2023-12-04 23:45:42,892 - | Epoch0028: 0201/1524 | Step 042873 | Data: 1534.727091 | Loss: 15.099210 |
+INFO - diffpose_frame.py - 2023-12-04 23:45:48,555 - | Epoch0028: 0301/1524 | Step 042973 | Data: 3148.678450 | Loss: 15.091632 |
+INFO - diffpose_frame.py - 2023-12-04 23:45:54,211 - | Epoch0028: 0401/1524 | Step 043073 | Data: 5329.166049 | Loss: 15.081636 |
+INFO - diffpose_frame.py - 2023-12-04 23:45:59,836 - | Epoch0028: 0501/1524 | Step 043173 | Data: 8073.247109 | Loss: 15.087757 |
+INFO - diffpose_frame.py - 2023-12-04 23:46:05,467 - | Epoch0028: 0601/1524 | Step 043273 | Data: 11379.956890 | Loss: 15.095578 |
+INFO - diffpose_frame.py - 2023-12-04 23:46:11,100 - | Epoch0028: 0701/1524 | Step 043373 | Data: 15250.065738 | Loss: 15.093652 |
+INFO - diffpose_frame.py - 2023-12-04 23:46:16,732 - | Epoch0028: 0801/1524 | Step 043473 | Data: 19683.380359 | Loss: 15.092003 |
+INFO - diffpose_frame.py - 2023-12-04 23:46:22,371 - | Epoch0028: 0901/1524 | Step 043573 | Data: 24680.299997 | Loss: 15.086940 |
+INFO - diffpose_frame.py - 2023-12-04 23:46:28,008 - | Epoch0028: 1001/1524 | Step 043673 | Data: 30240.820764 | Loss: 15.087269 |
+INFO - diffpose_frame.py - 2023-12-04 23:46:33,638 - | Epoch0028: 1101/1524 | Step 043773 | Data: 36364.727011 | Loss: 15.087163 |
+INFO - diffpose_frame.py - 2023-12-04 23:46:39,278 - | Epoch0028: 1201/1524 | Step 043873 | Data: 43051.988672 | Loss: 15.083268 |
+INFO - diffpose_frame.py - 2023-12-04 23:46:44,910 - | Epoch0028: 1301/1524 | Step 043973 | Data: 50303.090751 | Loss: 15.082460 |
+INFO - diffpose_frame.py - 2023-12-04 23:46:50,545 - | Epoch0028: 1401/1524 | Step 044073 | Data: 58117.425449 | Loss: 15.079475 |
+INFO - diffpose_frame.py - 2023-12-04 23:46:56,264 - | Epoch0028: 1501/1524 | Step 044173 | Data: 66499.367247 | Loss: 15.076502 |
+INFO - diffpose_frame.py - 2023-12-04 23:46:57,802 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:47:07,984 - (101/531) Data: 2.754543s | MPJPE:  31.0325 | P-MPJPE:  23.8095
+INFO - diffpose_frame.py - 2023-12-04 23:47:15,506 - (201/531) Data: 3.796322s | MPJPE:  31.8803 | P-MPJPE:  24.5622
+INFO - diffpose_frame.py - 2023-12-04 23:47:22,890 - (301/531) Data: 4.719564s | MPJPE:  32.5611 | P-MPJPE:  25.3169
+INFO - diffpose_frame.py - 2023-12-04 23:47:30,445 - (401/531) Data: 5.819248s | MPJPE:  32.2419 | P-MPJPE:  24.9771
+INFO - diffpose_frame.py - 2023-12-04 23:47:37,942 - (501/531) Data: 6.872832s | MPJPE:  32.3885 | P-MPJPE:  24.8417
+INFO - diffpose_frame.py - 2023-12-04 23:47:40,252 - sum (531/531) Data: 7.156612s | MPJPE:  32.2815 | P-MPJPE:  24.8175
+INFO - diffpose_frame.py - 2023-12-04 23:47:40,259 - | Best Epoch: 0023 MPJPE: 31.94 | Epoch: 0028 MPJEPE: 32.04 PA-MPJPE: 24.57 |
+INFO - diffpose_frame.py - 2023-12-04 23:47:47,857 - | Epoch0029: 0101/1524 | Step 044297 | Data: 476.343083 | Loss: 15.025353 |
+INFO - diffpose_frame.py - 2023-12-04 23:47:53,493 - | Epoch0029: 0201/1524 | Step 044397 | Data: 1515.142596 | Loss: 15.049307 |
+INFO - diffpose_frame.py - 2023-12-04 23:47:59,149 - | Epoch0029: 0301/1524 | Step 044497 | Data: 3118.036807 | Loss: 15.062381 |
+INFO - diffpose_frame.py - 2023-12-04 23:48:04,783 - | Epoch0029: 0401/1524 | Step 044597 | Data: 5285.826937 | Loss: 15.066018 |
+INFO - diffpose_frame.py - 2023-12-04 23:48:10,417 - | Epoch0029: 0501/1524 | Step 044697 | Data: 8017.132905 | Loss: 15.061444 |
+INFO - diffpose_frame.py - 2023-12-04 23:48:16,054 - | Epoch0029: 0601/1524 | Step 044797 | Data: 11312.085943 | Loss: 15.059741 |
+INFO - diffpose_frame.py - 2023-12-04 23:48:21,687 - | Epoch0029: 0701/1524 | Step 044897 | Data: 15170.461543 | Loss: 15.057389 |
+INFO - diffpose_frame.py - 2023-12-04 23:48:27,319 - | Epoch0029: 0801/1524 | Step 044997 | Data: 19591.995480 | Loss: 15.054928 |
+INFO - diffpose_frame.py - 2023-12-04 23:48:32,961 - | Epoch0029: 0901/1524 | Step 045097 | Data: 24577.412120 | Loss: 15.051265 |
+INFO - diffpose_frame.py - 2023-12-04 23:48:38,592 - | Epoch0029: 1001/1524 | Step 045197 | Data: 30126.395386 | Loss: 15.052744 |
+INFO - diffpose_frame.py - 2023-12-04 23:48:44,227 - | Epoch0029: 1101/1524 | Step 045297 | Data: 36238.748438 | Loss: 15.053266 |
+INFO - diffpose_frame.py - 2023-12-04 23:48:49,858 - | Epoch0029: 1201/1524 | Step 045397 | Data: 42914.406600 | Loss: 15.052094 |
+INFO - diffpose_frame.py - 2023-12-04 23:48:55,492 - | Epoch0029: 1301/1524 | Step 045497 | Data: 50153.218476 | Loss: 15.049836 |
+INFO - diffpose_frame.py - 2023-12-04 23:49:01,129 - | Epoch0029: 1401/1524 | Step 045597 | Data: 57955.710834 | Loss: 15.050628 |
+INFO - diffpose_frame.py - 2023-12-04 23:49:06,853 - | Epoch0029: 1501/1524 | Step 045697 | Data: 66325.717160 | Loss: 15.049886 |
+INFO - diffpose_frame.py - 2023-12-04 23:49:08,367 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:49:18,446 - (101/531) Data: 2.771730s | MPJPE:  30.8951 | P-MPJPE:  23.8025
+INFO - diffpose_frame.py - 2023-12-04 23:49:25,940 - (201/531) Data: 3.815903s | MPJPE:  31.9154 | P-MPJPE:  24.6327
+INFO - diffpose_frame.py - 2023-12-04 23:49:33,323 - (301/531) Data: 4.746885s | MPJPE:  32.6821 | P-MPJPE:  25.3942
+INFO - diffpose_frame.py - 2023-12-04 23:49:40,875 - (401/531) Data: 5.856509s | MPJPE:  32.3156 | P-MPJPE:  25.0833
+INFO - diffpose_frame.py - 2023-12-04 23:49:48,374 - (501/531) Data: 6.919723s | MPJPE:  32.4381 | P-MPJPE:  24.9479
+INFO - diffpose_frame.py - 2023-12-04 23:49:50,698 - sum (531/531) Data: 7.204953s | MPJPE:  32.3343 | P-MPJPE:  24.9356
+INFO - diffpose_frame.py - 2023-12-04 23:49:50,705 - | Best Epoch: 0023 MPJPE: 31.94 | Epoch: 0029 MPJEPE: 32.09 PA-MPJPE: 24.71 |
+INFO - diffpose_frame.py - 2023-12-04 23:49:58,444 - | Epoch0030: 0101/1524 | Step 045821 | Data: 488.990350 | Loss: 15.033144 |
+INFO - diffpose_frame.py - 2023-12-04 23:50:04,086 - | Epoch0030: 0201/1524 | Step 045921 | Data: 1541.972158 | Loss: 15.018103 |
+INFO - diffpose_frame.py - 2023-12-04 23:50:09,749 - | Epoch0030: 0301/1524 | Step 046021 | Data: 3161.107454 | Loss: 15.023602 |
+INFO - diffpose_frame.py - 2023-12-04 23:50:15,418 - | Epoch0030: 0401/1524 | Step 046121 | Data: 5346.206296 | Loss: 15.017914 |
+INFO - diffpose_frame.py - 2023-12-04 23:50:21,052 - | Epoch0030: 0501/1524 | Step 046221 | Data: 8096.405083 | Loss: 15.023076 |
+INFO - diffpose_frame.py - 2023-12-04 23:50:26,692 - | Epoch0030: 0601/1524 | Step 046321 | Data: 11410.171938 | Loss: 15.020233 |
+INFO - diffpose_frame.py - 2023-12-04 23:50:32,336 - | Epoch0030: 0701/1524 | Step 046421 | Data: 15288.443134 | Loss: 15.018899 |
+INFO - diffpose_frame.py - 2023-12-04 23:50:37,981 - | Epoch0030: 0801/1524 | Step 046521 | Data: 19731.082498 | Loss: 15.021782 |
+INFO - diffpose_frame.py - 2023-12-04 23:50:43,623 - | Epoch0030: 0901/1524 | Step 046621 | Data: 24737.961956 | Loss: 15.021243 |
+INFO - diffpose_frame.py - 2023-12-04 23:50:49,256 - | Epoch0030: 1001/1524 | Step 046721 | Data: 30308.672011 | Loss: 15.024025 |
+INFO - diffpose_frame.py - 2023-12-04 23:50:54,896 - | Epoch0030: 1101/1524 | Step 046821 | Data: 36443.018602 | Loss: 15.025922 |
+INFO - diffpose_frame.py - 2023-12-04 23:51:00,532 - | Epoch0030: 1201/1524 | Step 046921 | Data: 43141.064715 | Loss: 15.024627 |
+INFO - diffpose_frame.py - 2023-12-04 23:51:06,171 - | Epoch0030: 1301/1524 | Step 047021 | Data: 50402.732810 | Loss: 15.021290 |
+INFO - diffpose_frame.py - 2023-12-04 23:51:11,807 - | Epoch0030: 1401/1524 | Step 047121 | Data: 58228.385202 | Loss: 15.021849 |
+INFO - diffpose_frame.py - 2023-12-04 23:51:17,558 - | Epoch0030: 1501/1524 | Step 047221 | Data: 66623.284456 | Loss: 15.019857 |
+INFO - diffpose_frame.py - 2023-12-04 23:51:19,075 - test the performance of current model
+INFO - diffpose_frame.py - 2023-12-04 23:51:29,301 - (101/531) Data: 2.838751s | MPJPE:  30.6844 | P-MPJPE:  23.8024
+INFO - diffpose_frame.py - 2023-12-04 23:51:36,836 - (201/531) Data: 3.889651s | MPJPE:  31.7901 | P-MPJPE:  24.6674
+INFO - diffpose_frame.py - 2023-12-04 23:51:44,230 - (301/531) Data: 4.820880s | MPJPE:  32.5393 | P-MPJPE:  25.4678
+INFO - diffpose_frame.py - 2023-12-04 23:51:51,794 - (401/531) Data: 5.924007s | MPJPE:  32.1766 | P-MPJPE:  25.0818
+INFO - diffpose_frame.py - 2023-12-04 23:51:59,309 - (501/531) Data: 6.985914s | MPJPE:  32.2764 | P-MPJPE:  24.8813
+INFO - diffpose_frame.py - 2023-12-04 23:52:01,632 - sum (531/531) Data: 7.270059s | MPJPE:  32.1668 | P-MPJPE:  24.8464
+INFO - diffpose_frame.py - 2023-12-04 23:52:01,639 - | Best Epoch: 0030 MPJPE: 31.89 | Epoch: 0030 MPJEPE: 31.89 PA-MPJPE: 24.58 |

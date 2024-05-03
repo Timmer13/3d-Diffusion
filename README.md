@@ -1,1 +1,3 @@
 # 3d-Diffusion
+
+The adoption of diffusion models in generative AI has gained popularity. This paper delves into a pose estimation framework aimed at enhancing probabilistic 3D human pose estimation using an improved diffusion model. Our approach involves leveraging information from 2D key points and systematically introducing noise to each key point. Subsequently, we employ a trained diffusion model to denoise the image. The resulting denoiser is then utilized for making inferences and generating 3D poses. Several methods are proposed to enhance the propagation of the diffusion model, building upon previous efforts to achieve superior results.
